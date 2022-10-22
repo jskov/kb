@@ -418,3 +418,4 @@ Oct 22 14:47:26 casaskov assistant[8067]: 2022-10-22 14:47:26.612 WARNING (SyncW
 ```
 
 
+Maybe the token was bad (or pasted incompletly). Seem to get data with the token created for manual access.
