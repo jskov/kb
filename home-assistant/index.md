@@ -1,6 +1,8 @@
 # Home Assistant
 
-Stuff related to setup of [home assistant](https://www.home-assistant.io/).
+Stuff related to setup of [home assistant](https://www.home-assistant.io/) (or HASS among friends).
+
+
 
 ## Controller
 
@@ -296,3 +298,33 @@ $ sudo systemctl enable assistant
 
 ```
 
+## Configuration
+
+### Ikea Smart Plug
+
+TODO
+
+Ikea Plug works as is.
+
+The switch E1743 not:
+
+https://www.zigbee2mqtt.io/devices/E1743.html
+
+
+When binding switch to plug, the plug does not react to controller.
+
+
+### Eloverblik
+
+Downloaded v0.4.0 from https://github.com/JonasPed/homeassistant-eloverblik
+
+Created `/opt/data/services/assistant/custom_components` folder and placed 'custom_components/eloverblik' in it. Restarted the service.
+
+Had to make the folders and files owned by the 'assistant' user.
+
+Add 'eloverblik' in console's Intergrations.
+
+Configuration fails, needs 'pyeloverblik'.
+
+
+pip install pyeloverblik"

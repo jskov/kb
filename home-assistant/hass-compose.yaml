@@ -1,0 +1,20 @@
+services:
+  hass:
+    container_name: assistant
+    build:
+      dockerfile: ./Containerfile
+    cap_add:
+      - CAP_NET_BIND_SERVICE
+      - CAP_NET_RAW
+    environment:
+      TZ: Europe/Copenhagen
+    logging:
+      driver: journald
+      options:
+        tag: assistant
+    ports:
+      - "8123:8123"
+    volumes:
+      - "/opt/data/services/assistant:/config:Z,rw"
+    devices:
+      - "/dev/ttyUSB0:/dev/ttyUSB0"
