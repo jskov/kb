@@ -298,6 +298,52 @@ $ sudo systemctl enable assistant
 
 ```
 
+### Switch to Podman Compose
+
+Need to tweak the image before it starts. Easiest to do with compose.
+
+```console
+sudo rpm-ostree install podman-compose
+```
+
+Copy './hass-compose.yaml' and './Containerfile' to '/home/assistant/' on casaskov.
+
+And use new service:
+
+
+```text
+# /etc/systemd/system/assistant.service
+[Unit]
+Description=assistant
+Wants=network.target
+After=network-online.target
+
+[Service]
+User=assistant
+Group=assistant
+Environment=PODMAN_SYSTEMD_UNIT=%n
+Restart=on-failure
+
+ExecStart=/bin/bash -c "exec /usr/bin/podman-compose -f /home/assistant/hass-compose.yaml up"
+ExecStop=/usr/bin/podman stop --ignore assistant
+ExecStopPost=/usr/bin/podman rm --ignore -f assistant
+
+[Install]
+WantedBy=multi-user.target default.target
+```
+
+```console
+$ sudo systemctl daemon-reload
+
+$ sudo systemctl start assistant
+
+$ journalctl -f -t assistant --since today
+
+$ sudo systemctl enable assistant
+
+```
+
+
 ## Configuration
 
 ### Ikea Smart Plug
@@ -316,6 +362,7 @@ When binding switch to plug, the plug does not react to controller.
 
 ### Eloverblik
 
+
 Downloaded v0.4.0 from https://github.com/JonasPed/homeassistant-eloverblik
 
 Created `/opt/data/services/assistant/custom_components` folder and placed 'custom_components/eloverblik' in it. Restarted the service.
@@ -324,7 +371,50 @@ Had to make the folders and files owned by the 'assistant' user.
 
 Add 'eloverblik' in console's Intergrations.
 
-Configuration fails, needs 'pyeloverblik'.
+Configuration fails, needs 'pyeloverblik' (changed to use Podman compose to allow its installation).
+
+Log onto https://eloverblik.dk.
+
+Click user, Datadeling. Create new token (no to CPR, name elmaaler)
+Enter new token and maalernr.
+
+#### Data
+
+Manuals https://energinet.dk/Energidata/DataHub/Eloverblik
+API https://api.eloverblik.dk/CustomerApi/index.html
+
+Have to repeat calls. One of the servers return 503 all the time.
+
+```console
+$ curl -v -H "authorization: Bearer eyJhbGci" https://api.eloverblik.dk/customerapi/api/token
+J0b2tlblR5
 
 
-pip install pyeloverblik"
+curl -H 'accept: application/json' -H 'content-type: application/json' -d '{"meteringPoints": { "meteringPoint": [ "x" ] } }' -v -H "authorization: Bearer J0b2tlblR5cGUi" https://api.eloverblik.dk/customerapi/api/MeterData/GetTimeSeries/2022-10-14/2022-10-22/Hour
+
+
+{"result":[{"MyEnergyData_MarketDocument":{"mRID":"80","createdDateTime":"2022-10-22T01:24:32Z","sender_MarketParticipant.name":"","sender_MarketParticipant.mRID":{"codingScheme":null,"name":null},"period.timeInterval":{"start":"2022-10-13T22:00:00Z","end":"2022-10-20T22:00:00Z"},"TimeSeries":[{"mRID":"x","businessType":"A04","curveType":"A01","measurement_Unit.name":"KWH","MarketEvaluationPoint":{"mRID":{"codingScheme":"A10","name":"x"}},"Period":[{"resolution":"PT1H","timeInterval":{"start":"2022-10-13T22:00:00Z","end":"2022-10-14T22:00:00Z"},"Point":[{"position":"1","out_Quantity.quantity":"0.188","out_Quantity.quality":"A04"},{"position":"2","out_Quantity.quantity":"0.216","out_Quantity.quality":"A04"},{"position":"3","out_Quantity.quantity":"0.152","out_Quantity.quality":"A04"},{"position":"4","out_Quantity.quantity":"0.132","out_Quantity.quality":"A04"},{"position":"5","out_Quantity.quantity":"0.162","out_Quantity.quality":"A04"},{"position":"6","out_Quantity.quantity":"0.685","out_Quantity.quality":"A04"},{"position":"7","out_Quantity.quantity":"1.087","out_Quantity.quality":"A04"},{"position":"8","out_Quantity.quantity":"0.287","out_Quantity.quality":"A04"},{"position":"9","out_Quantity.quantity":"0.229","out_Quantity.quality":"A04"},{"position":"10","out_Quantity.quantity":"0.192","out_Quantity.quality":"A04"},{"position":"11","out_Quantity.quantity":"0.192","out_Quantity.quality":"A04"},{"position":"12","out_Quantity.quantity":"0.24","out_Quantity.quality":"A04"},{"position":"13","out_Quantity.quantity":"0.325","out_Quantity.quality":"A04"},{"position":"14","out_Quantity.quantity":"0.203","out_Quantity.quality":"A04"},{"position":"15","out_Quantity.quantity":"0.267","out_Quantity.quality":"A04"},{"position":"16","out_Quantity.quantity":"0.339","out_Quantity.quality":"A04"},{"position":"17","out_Quantity.quantity":"0.336","out_Quantity.quality":"A04"},{"position":"18","out_Quantity.quantity":"0.422","out_Quantity.quality":"A04"},{"position":"19","out_Quantity.quantity":"0.296","out_Quantity.quality":"A04"},{"position":"20","out_Quantity.quantity":"0.286","out_Quantity.quality":"A04"},{"position":"21","out_Quantity.quantity":"0.413","out_Quantity.quality":"A04"},{"position":"22","out_Quantity.quantity":"0.42","out_Quantity.quality":"A04"},{"position":"23","out_Quantity.quantity":"0.424","out_Quantity.quality":"A04"},{"position":"24","out_Quantity.quantity":"0.353","out_Quantity.quality":"A04"}]},{"resolution":"PT1H","timeInterval":{"start":"2022-10-14T22:00:00Z","end":"2022-10-15T
+```
+
+So access clearly works...
+
+
+But plugin fails with:
+
+```text
+Oct 22 13:42:56 casaskov assistant[8067]: 2022-10-22 13:42:56.543 WARNING (SyncWorker_7) [custom_components.eloverblik] Exception: HTTPSConnectionPool(host='api.eloverblik.dk', port=443): Max retries exceeded with url: /CustomerApi//api/MeterData/GetTimeSeries/2022-10-14/2022-10-22/Hour (Caused by ResponseError('too many 400 error responses'))
+Oct 22 13:42:56 casaskov assistant[8067]: 2022-10-22 13:42:56.694 WARNING (SyncWorker_0) [custom_components.eloverblik] Error from eloverblik when getting tariff data: 400 - "#20013: No meteringpoints in request conforms to valid meteringpoint format."
+Oct 22 14:43:36 casaskov assistant[8067]: 2022-10-22 14:43:36.068 WARNING (MainThread) [homeassistant.helpers.entity] Update of sensor.eloverblik_energy_total is taking over 10 seconds
+Oct 22 14:43:56 casaskov assistant[8067]: 2022-10-22 14:43:56.066 WARNING (MainThread) [homeassistant.components.sensor] Updating eloverblik sensor took longer than the scheduled update interval 0:00:30
+Oct 22 14:44:26 casaskov assistant[8067]: 2022-10-22 14:44:26.068 WARNING (MainThread) [homeassistant.components.sensor] Updating eloverblik sensor took longer than the scheduled update interval 0:00:30
+Oct 22 14:44:56 casaskov assistant[8067]: 2022-10-22 14:44:56.070 WARNING (MainThread) [homeassistant.components.sensor] Updating eloverblik sensor took longer than the scheduled update interval 0:00:30
+Oct 22 14:45:26 casaskov assistant[8067]: 2022-10-22 14:45:26.072 WARNING (MainThread) [homeassistant.components.sensor] Updating eloverblik sensor took longer than the scheduled update interval 0:00:30
+Oct 22 14:45:56 casaskov assistant[8067]: 2022-10-22 14:45:56.073 WARNING (MainThread) [homeassistant.components.sensor] Updating eloverblik sensor took longer than the scheduled update interval 0:00:30
+Oct 22 14:46:26 casaskov assistant[8067]: 2022-10-22 14:46:26.074 WARNING (MainThread) [homeassistant.components.sensor] Updating eloverblik sensor took longer than the scheduled update interval 0:00:30
+Oct 22 14:46:56 casaskov assistant[8067]: 2022-10-22 14:46:56.075 WARNING (MainThread) [homeassistant.components.sensor] Updating eloverblik sensor took longer than the scheduled update interval 0:00:30
+Oct 22 14:47:26 casaskov assistant[8067]: 2022-10-22 14:47:26.076 WARNING (MainThread) [homeassistant.components.sensor] Updating eloverblik sensor took longer than the scheduled update interval 0:00:30
+Oct 22 14:47:26 casaskov assistant[8067]: 2022-10-22 14:47:26.612 WARNING (SyncWorker_0) [custom_components.eloverblik] Exception: HTTPSConnectionPool(host='api.eloverblik.dk', port=443): Max retries exceeded with url: /CustomerApi//api/MeterData/GetTimeSeries/2022-10-14/2022-10-22/Hour (Caused by ResponseError('too many 400 error responses'))
+
+```
+
+
