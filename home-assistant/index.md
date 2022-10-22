@@ -348,14 +348,15 @@ $ sudo systemctl enable assistant
 
 ### Ikea Smart Plug
 
-TODO
+Add devices under Zigbee Home Automation.
 
-Ikea Plug works as is.
+Ikea Plug works as is. Reset pin to register.
 
-The switch E1743 not:
+The switch E1743, register with 4 x fast(ish) clicks on its button to register (maybe 1/0 first)
 
-https://www.zigbee2mqtt.io/devices/E1743.html
+Add events on the switch to make it control the plug.
 
+Select the device, click on Automations +.
 
 When binding switch to plug, the plug does not react to controller.
 
