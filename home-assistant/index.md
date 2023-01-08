@@ -350,7 +350,11 @@ $ sudo systemctl enable assistant
 
 Add devices under Zigbee Home Automation.
 
-Ikea Plug works as is. Reset pin to register.
+First bind the switch and the plug with 10 second reset on switch close to the plug.
+
+Ikea Plug works as is. Reset pin to register - click + hold for 4 seconds, then start scanning for devices.
+Configure first, then take out of wall while configuring I/O switch
+
 
 The switch E1743, register with 4 x fast(ish) clicks on its button to register (maybe 1/0 first)
 
