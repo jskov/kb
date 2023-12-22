@@ -1,0 +1,28 @@
+# Requires initial installation of ansible:
+#  $ ssh mada
+#  $ rpm-ostree install ansible ansible-collection-ansible-posix.noarch ansible-collection-community-general.noarch
+
+- hosts: localhost
+
+  tasks:
+  # Home Assistant needs access to the (USB) ZigBee controller
+  - name: Install USB utils for Home Assistant
+    community.general.rpm_ostree_pkg:
+      name: usbutils
+      state: present
+    become: yes
+
+  # Reboot machine if changes have been made
+  # From: https://github.com/j1mc/ansible-silverblue/blob/main/roles/layered_packages/tasks/main.yml#L28
+
+  - name: Query whether booted RPM-OSTree deployment is first deployment
+    shell: rpm-ostree status --json | jq -r .deployments[0].booted
+    register: booted
+  
+  - name: Reboot if new deployement is ready.
+    reboot:
+      reboot_timeout: 300
+    become: yes
+    when:
+      - booted.stdout == "false"
+  

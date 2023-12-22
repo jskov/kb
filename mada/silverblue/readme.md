@@ -1,0 +1,2 @@
+# Silverblue configuration for mada
+
