@@ -66,3 +66,9 @@
     ansible.builtin.command:
       cmd: "loginctl enable-linger assistant"
       creates: /var/lib/systemd/linger/assistant
+
+  - name: Allow Podman access to USB
+    ansible.posix.seboolean:
+      name: container_use_devices
+      state: true
+      persistent: true
