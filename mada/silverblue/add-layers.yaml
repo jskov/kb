@@ -1,6 +1,17 @@
 # Requires initial installation of ansible:
 #  $ ssh mada
-#  $ rpm-ostree install ansible ansible-collection-ansible-posix.noarch ansible-collection-community-general.noarch
+#  $ rpm-ostree install ansible ansible-collection-ansible-posix.noarch ansible-collection-community-general.noarch toolbox
+#
+# Run:
+# $ toolbox create
+# $ toolbox enter
+# $ git clone https://github.com/jskov/kb.git
+# $ exit
+#
+# $ LANG=C.UTF-8 LC_CTYPE=C.UTF-8 sudo ansible-playbook kb/mada/silverblue/add-layers.yaml
+#
+# Git for cloning the kb-repository - and easy diff'ing of local tweaks.
+# No intention of making pushes from mada.
 
 - hosts: localhost
 
