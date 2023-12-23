@@ -1,0 +1,64 @@
+# Setup Podman container with home-assistant
+
+- hosts: localhost
+
+  tasks:
+  # Access to the USB Zigbee device from Podman container
+  #
+  #  https://www.redhat.com/sysadmin/supplemental-groups-podman-containers
+  #  https://discussion.fedoraproject.org/t/cannot-access-dev-ttyacm0-from-toolbox-container/13305
+  #
+  # Podman USB access inspection
+  #
+  #  As assistant-user, run sleep 1000, then as other user:
+  #  $ ps -aeno "user,group,args" | grep sleep
+  #      # assistant: sleep 1000
+  #      1002     1002 sleep 1788
+  #      # assistant: sg dialout -c 'sleep 1000'
+  #      1002       18 sleep 1000
+  #
+  # Now with Podman.
+  #  $ podman run -ti --annotation run.oci.keep_original_groups=1 --userns=keep-id --device /dev/ttyUSB0 ubi9 /bin/bash
+  #
+  #      # id:
+  #      uid=1002(assistant) gid=1002(assistant) groups=1002(assistant)
+  #      # sleep 1000:
+  #      1002     1002 /usr/bin/coreutils --coreutils-prog-shebang=sleep /usr/bin/sleep 100
+  #
+  #
+  # $ sg dialout -c 'podman run -ti --annotation run.oci.keep_original_groups=1 --userns=keep-id --device /dev/ttyUSB0 ubi9 /bin/bash'
+  #
+  #      # id:
+  #       uid=1002(assistant) gid=18(dialout) groups=18(dialout),65534(nobody)
+  #       (looks good! but still):
+  #      # sleep 1000:
+  #      1002     1002 /usr/bin/coreutils --coreutils-prog-shebang=sleep /usr/bin/sleep 1000
+
+
+  # Add dialout group
+  #
+  #  $ stat /dev/ttyUSB0
+  #  Access: (0666/crw-rw-rw-)  Uid: (    0/    root)   Gid: (   18/ dialout)
+
+  # See https://docs.fedoraproject.org/en-US/fedora-silverblue/troubleshooting/#_unable_to_add_user_to_group
+  - name: Add group 'dialout'
+    ansible.builtin.lineinfile:
+      path: /etc/group
+      line: 'dialout:x:18:'
+
+  - name: Ensure group 'assistant' exists
+    ansible.builtin.group:
+      name: assistant
+      state: present
+      gid: 1002
+
+  - name: Add the user 'assistant'
+    ansible.builtin.user:
+      name: assistant
+      comment: assistant
+      uid: 1002
+      group: assistant
+      groups: dialout
+      append: true
+
+# XXX: user created with correct groups
