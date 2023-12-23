@@ -72,3 +72,9 @@
       name: container_use_devices
       state: true
       persistent: true
+
+      # This works:
+# podman run  --group-add 18 --name homeassistant   -e TZ=Europe/Copenhagen   -v /opt/data/home-assistant:/config:Z,rw   --cap-add=CAP_NET_RAW,CAP_NET_BIND_SERVICE   -p 8123:8123   --device /dev/ttyUSB0 -it  ghcr.io/home-assistant/home-assistant:stable
+
+# XXX: testing this:
+# podman run -ti --group-add=keep-groups --name homeassistant   -e TZ=Europe/Copenhagen   -v /opt/data/services/assistant:/config:Z,rw   --cap-add=CAP_NET_RAW,CAP_NET_BIND_SERVICE   -p 8123:8123   --device /dev/ttyUSB0 -it  ghcr.io/home-assistant/home-assistant:stable
