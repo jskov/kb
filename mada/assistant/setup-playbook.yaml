@@ -61,4 +61,8 @@
       groups: dialout
       append: true
 
-# XXX: user created with correct groups
+
+  - name: Ensure lingering enabled
+    ansible.builtin.command:
+      cmd: "loginctl enable-linger assistant"
+      creates: /var/lib/systemd/linger/assistant
