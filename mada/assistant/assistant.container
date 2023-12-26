@@ -28,7 +28,7 @@ Image = ghcr.io/home-assistant/home-assistant@sha256:128abdfe0b0a82df32a0a192032
 AddDevice=/dev/ttyUSB0
 ContainerName=assistant
 Environment=TZ=Europe/Copenhagen
-PublishPort=8123
+PublishPort=8123:8123
 Volume=/opt/data/services/assistant:/config:Z,rw
 
 PodmanArgs=--group-add=keep-groups --cap-add=CAP_NET_RAW,CAP_NET_BIND_SERVICE
@@ -37,6 +37,7 @@ PodmanArgs=--group-add=keep-groups --cap-add=CAP_NET_RAW,CAP_NET_BIND_SERVICE
 [Unit]
 Wants=network.target
 After=network-online.target
+
 
 
 [Install]
