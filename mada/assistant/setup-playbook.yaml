@@ -63,6 +63,8 @@
 
 
   - name: Ensure lingering enabled
+    # This can be verified by
+    #  $ ls -l /var/lib/systemd/linger/
     ansible.builtin.command:
       cmd: "loginctl enable-linger assistant"
       creates: /var/lib/systemd/linger/assistant
@@ -78,14 +80,34 @@
       path: /home/assistant/.config/containers/systemd
       state: directory
       mode: '0755'
+      owner: assistant
+      group: assistant
 
   - name: Create systemd service
+    # Quad file was not translated by generator
+    # Apparently because the linger above had not taken effect yet
+    # Solved by reboot, after which systemd was "running" for the user:
+    #  $ ps aux | grep "systemd --user"
+    #  assista+   ... /usr/lib/systemd/systemd --user
+    #
+    # Still a problem. Due to 'sudo su' not triggering correct login.
+    # Need:
+    #  $ sudo systemctl --user -M assistant@ daemon-reload
+    #  $ sudo systemctl --user -M assistant@ --user list-unit-files
     ansible.builtin.template:
       src: assistant.container
       dest: /home/assistant/.config/containers/systemd/assistant.container
       owner: assistant
+      group: assistant
+    notify:
+      - reload_systemd
 
-# XXX: can generatre quad, but not clear that it is seen?
+  handlers:
+    - name: reload_systemd
+      ansible.builtin.systemd_service:
+        daemon_reload: true
+        
+# XXX: can use manual systemctl --user commands to reload, TODO: via ansible
 
       # This works:
 # podman run  --group-add 18 --name homeassistant   -e TZ=Europe/Copenhagen   -v /opt/data/home-assistant:/config:Z,rw   --cap-add=CAP_NET_RAW,CAP_NET_BIND_SERVICE   -p 8123:8123   --device /dev/ttyUSB0 -it  ghcr.io/home-assistant/home-assistant:stable

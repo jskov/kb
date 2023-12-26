@@ -8,14 +8,20 @@
 # systemctl --list-unit-files
 # systemctl start assistant
 
+[Service]
+# Allows long image download time
+TimeoutStartSec=900
+#User=assistant
+#Group=assistant
 
 [Container]
+
 
 #Image = ghcr.io/home-assistant/home-assistant:stable
 # This is 2023.12.3 
 Image = ghcr.io/home-assistant/home-assistant@sha256:128abdfe0b0a82df32a0a192032a86d113564ce2ce5ad470c47d551a53bf5db4
 
-GlobalArgs=--log-driver=journald --log-opt tag=assistant
+#GlobalArgs=--log-driver=journald --log-opt tag=assistant
 
 # podman run -ti  --cap-add=CAP_NET_RAW,CAP_NET_BIND_SERVICE  -it  ghcr.io/home-assistant/home-assistant:stable
 
@@ -35,7 +41,3 @@ After=network-online.target
 
 [Install]
 WantedBy=default.target
-
-[Service]
-# Allows long image download time
-TimeoutStartSec=900
