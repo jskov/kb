@@ -1,5 +1,11 @@
 # Setup Podman container with home-assistant
 #
+# After installation on clean machine, the service is not running.
+# Need reboot or:
+#  $ sudo systemctl --user -M assistant@ start assistant
+#
+# Status:
+#  $ sudo systemctl --user -M assistant@ status assistant
 # Show log:
 #  $ sudo su - assistant -c "journalctl --user -u assistant -f"
 
@@ -46,8 +52,12 @@
 
   # See https://docs.fedoraproject.org/en-US/fedora-silverblue/troubleshooting/#_unable_to_add_user_to_group
   - name: Add group 'dialout'
+    # Note that on reruns in same session, this will replace
+    # a line containing assistant user, so create use will
+    # run again
     ansible.builtin.lineinfile:
       path: /etc/group
+      search_string: 'dialout:'
       line: 'dialout:x:18:'
 
   - name: Ensure group 'assistant' exists
@@ -64,7 +74,6 @@
       group: assistant
       groups: dialout
       append: true
-
 
   - name: Ensure lingering enabled
     # This can be verified by
