@@ -1,4 +1,0 @@
-# Version 2022.10.1
-FROM ghcr.io/home-assistant/home-assistant@sha256:544cbac872d2d97ad081d39a432cc9ce216bd4bbc372b4c3f320e4600db17eb9
-
-RUN pip install eloverblik
