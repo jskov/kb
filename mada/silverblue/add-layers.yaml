@@ -17,11 +17,11 @@
 
   tasks:
   # Home Assistant needs access to the (USB) ZigBee controller
-  - name: Install USB utils for Home Assistant
-    community.general.rpm_ostree_pkg:
-      name: usbutils
-      state: present
-    become: yes
+#  - name: Install USB utils for Home Assistant
+#    community.general.rpm_ostree_pkg:
+#      name: usbutils
+#      state: present
+#    become: yes
 
   # Reboot machine if changes have been made
   # From: https://github.com/j1mc/ansible-silverblue/blob/main/roles/layered_packages/tasks/main.yml#L28
