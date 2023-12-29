@@ -1,6 +1,23 @@
 # Silverblue configuration for mada
 
-## Bootstrap
+## Updating
+
+Documentation: https://docs.fedoraproject.org/en-US/iot/applying-updates-UG/
+
+```console
+# See if update is available
+$ sudo rpm-ostree upgrade --check
+
+# Update
+$ sudo rpm-ostree upgrade
+$ sudo systemctl reboot
+
+# Rollback
+$ sudo rpm-ostree rollback --reboot
+```
+
+
+## Ansible Bootstrap
 
 Ansible and toolbox needs to be installed layered:
 
@@ -27,7 +44,7 @@ There is no intention of making pushes from mada.
 
 Script to add layers to SilverBlue. Not much point, since bootstrap is required anyway.
 
-Bur shows how.
+But shows how.
 
 ```console
 $ LANG=C.UTF-8 sudo ansible-playbook kb/mada/silverblue/add-layers.yaml
