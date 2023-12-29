@@ -77,6 +77,12 @@
     notify:
       - reload_systemd
 
+  - name: Allow firewall access
+    ansible.posix.firewalld:
+      port: 8123/tcp
+      permanent: true
+      state: enabled
+
   handlers:
     - name: get assistant user id
       become: true
