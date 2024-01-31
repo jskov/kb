@@ -1,0 +1,22 @@
+# Build with:
+#  podman build -f Containerfile -t lms
+#
+# Release with:
+# podman build -f Containerfile -t docker.io/jskov/lms:8.3.1-ubi9.3-10_000
+# podman push (above name:label)
+
+FROM registry.access.redhat.com/ubi9/ubi-init:9.3-10
+
+RUN dnf -y --nodocs install perl \
+ && dnf clean all \
+ && echo "6bea133a090ca14e93faf06b1ce9a11991f9635d1b416cad98f638d3ef4ad5ad  /tmp/lms.rpm" > /tmp/shasums.txt \
+ && curl https://downloads.slimdevices.com/LogitechMediaServer_v8.3.1/logitechmediaserver-8.3.1-1.noarch.rpm -o /tmp/lms.rpm \
+ && sha256sum -c /tmp/shasums.txt \
+ && rpm -i /tmp/lms.rpm \
+ && rm -f /tmp/lms.rpm /tmp/shasums.txt
+
+
+
+
+
+
