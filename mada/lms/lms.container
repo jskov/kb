@@ -1,0 +1,31 @@
+# For Podman Quad
+# To be placed in ~/.config/containers/systemd/
+#
+# Debug rendering with:
+#  /usr/lib/systemd/user-generators/podman-user-generator --dryrun
+#
+# sudo systemctl daemon-reload
+# systemctl --list-unit-files
+# systemctl start lms
+
+[Service]
+# Allows long image download time
+TimeoutStartSec=900
+
+[Container]
+# This is 8.3.1-ubi9.3-10_000 
+Image = docker.io/jskov/lms@sha256:80c9f1396de5a42dc6d496e67b82466b02830e31ea02c4cc2afa809bf6752373
+
+ContainerName=lms
+Environment=TZ=Europe/Copenhagen
+PublishPort=9000:9000
+#Volume=/opt/data/services/assistant:/config:Z,rw
+
+#PodmanArgs=--group-add=keep-groups --cap-add=CAP_NET_RAW,CAP_NET_BIND_SERVICE
+
+[Unit]
+Wants=network.target
+After=network-online.target
+
+[Install]
+WantedBy=default.target
