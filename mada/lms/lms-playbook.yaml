@@ -53,6 +53,7 @@
       port: 9000/tcp
       permanent: true
       state: enabled
+      immediate: true
 
   handlers:
     - name: get lms user id
