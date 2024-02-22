@@ -48,9 +48,23 @@
     notify:
       - reload_systemd
 
-  - name: Allow firewall access
+  - name: Allow firewall access to web
     ansible.posix.firewalld:
       port: 9000/tcp
+      permanent: true
+      state: enabled
+      immediate: true
+
+  - name: Allow firewall access to broadcast port TCP
+    ansible.posix.firewalld:
+      port: 3483/tcp
+      permanent: true
+      state: enabled
+      immediate: true
+
+  - name: Allow firewall access to broadcast port UDP
+    ansible.posix.firewalld:
+      port: 3483/udp
       permanent: true
       state: enabled
       immediate: true

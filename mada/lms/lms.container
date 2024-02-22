@@ -13,12 +13,15 @@
 TimeoutStartSec=900
 
 [Container]
-# This is 8.3.1-ubi9.3-10_000 
-Image = docker.io/jskov/lms@sha256:80c9f1396de5a42dc6d496e67b82466b02830e31ea02c4cc2afa809bf6752373
+# This is 8.4.0-ubi9.3-10_000 
+Image = docker.io/jskov/lms@sha256:3fdb957122e69caf5f4fa7bafcbae116b98dbba40c34b77eb89d3029f91f94c6
 
 ContainerName=lms
 Environment=TZ=Europe/Copenhagen
 PublishPort=9000:9000
+PublishPort=3483:3483/tcp
+PublishPort=3483:3483/udp
+
 #Volume=/opt/data/services/assistant:/config:Z,rw
 
 #PodmanArgs=--group-add=keep-groups --cap-add=CAP_NET_RAW,CAP_NET_BIND_SERVICE
