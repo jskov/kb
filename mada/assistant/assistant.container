@@ -16,7 +16,11 @@ TimeoutStartSec=900
 
 [Container]
 # This is 2023.12.3 
-Image = ghcr.io/home-assistant/home-assistant@sha256:128abdfe0b0a82df32a0a192032a86d113564ce2ce5ad470c47d551a53bf5db4
+#Image = ghcr.io/home-assistant/home-assistant@sha256:128abdfe0b0a82df32a0a192032a86d113564ce2ce5ad470c47d551a53bf5db4
+
+# This is 2024.5.4
+Image = ghcr.io/home-assistant/home-assistant@sha256:4d9bcf1e49b9d6fe5b4ca10f89d71eb72ad2bddb2de5db4178cd2ee4887c3968
+
 
 AddDevice=/dev/ttyUSB0
 ContainerName=assistant
