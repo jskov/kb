@@ -1,0 +1,43 @@
+;;
+;; Domain:     mada.dk.
+;; Exported:   2024-06-08 12:43:08
+;;
+;; This file is intended for use for informational and archival
+;; purposes ONLY and MUST be edited before use on a production
+;; DNS server.  In particular, you must:
+;;   -- update the SOA record with the correct authoritative name server
+;;   -- update the SOA record with the contact e-mail address information
+;;   -- update the NS record(s) with the authoritative name servers for this domain.
+;;
+;; For further information, please consult the BIND documentation
+;; located on the following website:
+;;
+;; http://www.isc.org/
+;;
+;; And RFC 1035:
+;;
+;; http://www.ietf.org/rfc/rfc1035.txt
+;;
+;; Please note that we do NOT offer technical support for any use
+;; of this zone data, the BIND name server, or any other third-party
+;; DNS software.
+;;
+;; Use at your own risk.
+;; SOA Record
+mada.dk	3600	IN	SOA	aarav.ns.cloudflare.com. dns.cloudflare.com. 2046951718 10000 2400 604800 3600
+
+;; NS Records
+mada.dk.	86400	IN	NS	aarav.ns.cloudflare.com.
+mada.dk.	86400	IN	NS	kim.ns.cloudflare.com.
+
+;; CNAME Records
+music.mada.dk.	1	IN	CNAME	6f69fc25-5d61-4344-84b3-23b91d21ffb1.cfargotunnel.com.
+
+;; MX Records
+mada.dk.	1	IN	MX	10 mx2.forwardemail.net.
+mada.dk.	1	IN	MX	10 mx1.forwardemail.net.
+
+;; TXT Records
+mada.dk.	1	IN	TXT	"google-site-verification=IzPOqGUdfVNXmbTA2SCvmmDAMrp61XkSygUa0btpSUM"
+mada.dk.	1	IN	TXT	"v=spf1 include:_netblocks.google.com include:_netblocks2.google.com include:_netblocks3.google.com ~all"
+mada.dk.	1	IN	TXT	"forward-email-site-verification=6Lc5WBn2MW"
