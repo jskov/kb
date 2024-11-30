@@ -1,5 +1,12 @@
 # Silverblue configuration for mada
 
+
+## Home Assistant
+
+[Home Assistant](https://www.home-assistant.io/) installed via layering of [fedora-iot-assistant](https://github.com/jskov/fedora-iot-assistant).
+
+
+
 ## Updating
 
 Documentation: https://docs.fedoraproject.org/en-US/iot/applying-updates-UG/
