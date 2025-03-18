@@ -2,6 +2,19 @@
 #  backup.rc
 
 function setup() {
-    install_dependencies zstd xxhash
+
+    (cat <<EOF
+[jotta-cli]
+name=Jottacloud CLI
+baseurl=https://repo.jotta.cloud/redhat
+gpgcheck=1
+gpgkey=https://repo.jotta.cloud/public.gpg
+EOF
+    ) | sudo tee /etc/yum.repos.d/JottaCLI.repo
+
+    install_dependencies jotta-cli zstd xxhash java-openjdk-latest
 }
 
+# Need to login with `jotta-cli login`
+export JOTTAD_SYSTEMD=0
+run_jottad || true
