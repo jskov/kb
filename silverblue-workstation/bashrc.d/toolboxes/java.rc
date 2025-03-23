@@ -1,7 +1,0 @@
-#! /bin/bash
-#  java.rc
-
-function setup() {
-    install_dependencies java-21-openjdk-devel java-latest-openjdk-devel
-}
-
