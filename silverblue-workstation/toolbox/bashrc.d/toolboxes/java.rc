@@ -2,6 +2,7 @@
 #  java.rc
 
 function setup() {
-    install_dependencies java-21-openjdk-devel java-latest-openjdk-devel ripgrep
+    sudo dnf config-manager addrepo --from-repofile=https://cli.github.com/packages/rpm/gh-cli.repo
+    install_dependencies java-21-openjdk-devel java-latest-openjdk-devel ripgrep gh
 }
 
