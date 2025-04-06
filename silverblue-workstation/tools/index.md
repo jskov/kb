@@ -13,3 +13,14 @@ $ flatpak --user override org.eclipse.Java --filesystem=~/.m2
 $ flatpak --user override org.eclipse.Java --filesystem=~/.gradle
 $ flatpak --user override org.eclipse.Java --filesystem=~/.gitconfig
 ```
+
+## Vscodium
+
+```console
+$ sudo flatpak install com.vscodium.codium
+$ flatpak --user override com.vscodium.codium --socket=ssh-auth
+$ flatpak --user override com.vscodium.codium --persist=.ssh
+$ flatpak --user override com.vscodium.codium --nofilesystem=host
+$ flatpak --user override com.vscodium.codium --filesystem=~/git
+$ flatpak --user override com.vscodium.codium --filesystem=~/.gitconfig:ro
+```
