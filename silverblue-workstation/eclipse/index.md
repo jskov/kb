@@ -11,4 +11,5 @@ $ flatpak --user override org.eclipse.Java --filesystem=~/_eclipse
 $ flatpak --user override org.eclipse.Java --filesystem=~/git
 $ flatpak --user override org.eclipse.Java --filesystem=~/.m2
 $ flatpak --user override org.eclipse.Java --filesystem=~/.gradle
+$ flatpak --user override org.eclipse.Java --filesystem=~/.gitconfig
 ```
