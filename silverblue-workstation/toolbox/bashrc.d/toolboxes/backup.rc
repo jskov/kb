@@ -12,7 +12,7 @@ gpgkey=https://repo.jotta.cloud/public.gpg
 EOF
     ) | sudo tee /etc/yum.repos.d/JottaCLI.repo
 
-    install_dependencies jotta-cli zstd xxhash java-openjdk-latest
+    install_dependencies jotta-cli zstd xxhash java-openjdk-latest diceware
 }
 
 # Need to login with `jotta-cli login`
