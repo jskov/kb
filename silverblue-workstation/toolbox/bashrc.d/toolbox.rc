@@ -33,6 +33,6 @@ then
 	alias b="echo 'Already in container $TOOLBOX_NAME'"
 	alias j="echo 'Already in container $TOOLBOX_NAME'"
 else
-	alias b='distrobox ls --no-color | awk "{ print \"@\" \$3 \"@\" }" | grep -q "@backup@" && distrobox enter backup || (distrobox create backup --volume /opt:/opt && distrobox enter backup)'
-	alias j='distrobox ls --no-color | awk "{ print \"@\" \$3 \"@\" }" | grep -q "@java@" && distrobox enter java || (distrobox create java && distrobox enter java)'
+	alias b='distrobox ls --no-color | awk "{ print \"@\" \$3 \"@\" }" | grep -q "@backup@" && (distrobox enter backup || (distrobox create backup --volume /opt:/opt && distrobox enter backup))'
+	alias j='distrobox ls --no-color | awk "{ print \"@\" \$3 \"@\" }" | grep -q "@java@"   && (distrobox enter java   || (distrobox create java && distrobox enter java))'
 fi
