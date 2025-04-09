@@ -31,8 +31,10 @@ then
 	export PS1="\[\033[1;32m\]\342\224\200\[\[\033[1;37m\]\u\[\033[01;32m\]@\[\033[01;34m\]\h\[\033[1;32m\]]\342\224\200[\[\033[1;37m\]\w\[\033[1;32m\]]\n\[\033[1;32m\]\342\224\224\342\224\200\342\224\200\342\225\274 [\[\e[01;33m\]$(date +%F-%R)\[\e[01;32m\]]\\$ \[\e[0m\]"
 
 	alias b="echo 'Already in container $TOOLBOX_NAME'"
+	alias c="echo 'Already in container $TOOLBOX_NAME'"
 	alias j="echo 'Already in container $TOOLBOX_NAME'"
 else
-	alias b='distrobox ls --no-color | awk "{ print \"@\" \$3 \"@\" }" | grep -q "@backup@" && (distrobox enter backup || (distrobox create backup --volume /opt:/opt && distrobox enter backup))'
-	alias j='distrobox ls --no-color | awk "{ print \"@\" \$3 \"@\" }" | grep -q "@java@"   && (distrobox enter java   || (distrobox create java && distrobox enter java))'
+	alias b='distrobox ls --no-color | awk "{ print \"@\" \$3 \"@\" }" | (grep -q "@backup@"     && distrobox enter backup)     || (distrobox create backup --volume /opt:/opt && distrobox enter backup)'
+	alias c='distrobox ls --no-color | awk "{ print \"@\" \$3 \"@\" }" | (grep -q "@containers@" && distrobox enter containers) || (distrobox create containers && distrobox enter containers)'
+	alias j='distrobox ls --no-color | awk "{ print \"@\" \$3 \"@\" }" | (grep -q "@java@"       && distrobox enter java)       || (distrobox create java && distrobox enter java)'
 fi

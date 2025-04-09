@@ -1,0 +1,6 @@
+#! /bin/bash
+#  containers.rc
+
+function setup() {
+    install_dependencies diceware rpmbuild selinux-policy-devel tito
+}
