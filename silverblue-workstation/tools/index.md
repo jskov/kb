@@ -14,7 +14,7 @@ $ flatpak --user override --show NAME
 Allow access to SSH agent:
 
 ```console
-$ sudo flatpak install org.eclipse.Java
+$ flatpak install org.eclipse.Java
 $ flatpak --user override org.eclipse.Java --socket=ssh-auth
 $ flatpak --user override org.eclipse.Java --persist=.ssh
 $ flatpak --user override org.eclipse.Java --nofilesystem=host
@@ -28,7 +28,7 @@ $ flatpak --user override org.eclipse.Java --filesystem=~/.gitconfig
 ## Zed
 
 ```console
-$ sudo flatpak install dev.zed.Zed
+$ flatpak install dev.zed.Zed
 $ flatpak --user override dev.zed.Zed --socket=ssh-auth
 $ flatpak --user override dev.zed.Zed --persist=.ssh
 $ flatpak --user override dev.zed.Zed --nofilesystem=host
@@ -39,7 +39,7 @@ $ flatpak --user override dev.zed.Zed --filesystem=~/.gitconfig:ro
 ## Vscodium
 
 ```console
-$ sudo flatpak install com.vscodium.codium
+$ flatpak install com.vscodium.codium
 $ flatpak --user override com.vscodium.codium --socket=ssh-auth
 $ flatpak --user override com.vscodium.codium --persist=.ssh
 $ flatpak --user override com.vscodium.codium --nofilesystem=host
@@ -54,4 +54,14 @@ Music player
 ```console
 $ flatpak install flathub com.github.taiko2k.tauonmb
 $ flatpak --user override org.gnome.Rhythmbox3 --filesystem=/opt/music:ro
+```
+
+## Picard
+
+```console
+$ flatpak install flathub org.musicbrainz.Picard
+$ flatpak --user override org.musicbrainz.Picard --nodevice=all
+$ flatpak --user override org.musicbrainz.Picard --nofilesystem=home
+$ flatpak --user override org.musicbrainz.Picard --nofilesystem=/tmp
+$ flatpak --user override org.musicbrainz.Picard --filesystem=~/Downloads/_opus
 ```
