@@ -9,6 +9,8 @@ function install_dependencies() {
 	[ -f /.first_run ]  || sudo dnf -y install $@
 }
 
+baseImage=registry.fedoraproject.org/fedora-toolbox:42
+
 if [ -f "/run/.toolboxenv" ]
 then
 	TOOLBOX_NAME=$( grep -oP "(?<=name=\")[^\";]+" /run/.containerenv )
@@ -19,8 +21,8 @@ then
 	fi
 	
 	if ! [ -f /.first_run ] ; then
-		echo "Instantiating container ${TOOLBOX_NAME}, please wait..."
 		sudo hostname -b "bx-${TOOLBOX_NAME}"
+		echo "Instantiating container ${TOOLBOX_NAME}, please wait..."
 		[[ $(type -t setup) == function ]] && setup
 		sudo touch /.first_run
 
@@ -34,7 +36,7 @@ then
 	alias c="echo 'Already in container $TOOLBOX_NAME'"
 	alias j="echo 'Already in container $TOOLBOX_NAME'"
 else
-	alias b='distrobox ls --no-color | awk "{ print \"@\" \$3 \"@\" }" | grep -q "@backup@"     && distrobox enter backup     || (distrobox create backup --volume /opt:/opt && distrobox enter backup)'
-	alias c='distrobox ls --no-color | awk "{ print \"@\" \$3 \"@\" }" | grep -q "@containers@" && distrobox enter containers || (distrobox create containers && distrobox enter containers)'
-	alias j='distrobox ls --no-color | awk "{ print \"@\" \$3 \"@\" }" | grep -q "@java@"       && distrobox enter java       || (distrobox create java && distrobox enter java)'
+	alias b='distrobox ls --no-color | awk "{ print \"@\" \$3 \"@\" }" | grep -q "@backup@"     && distrobox enter backup     || (distrobox create -i $baseImage backup --volume /opt:/opt && distrobox enter backup)'
+	alias c='distrobox ls --no-color | awk "{ print \"@\" \$3 \"@\" }" | grep -q "@containers@" && distrobox enter containers || (distrobox create -i $baseImage containers && distrobox enter containers)'
+	alias j='distrobox ls --no-color | awk "{ print \"@\" \$3 \"@\" }" | grep -q "@java@"       && distrobox enter java       || (distrobox create -i $baseImage java && distrobox enter java)'
 fi

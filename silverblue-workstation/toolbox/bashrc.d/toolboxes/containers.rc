@@ -2,5 +2,5 @@
 #  containers.rc
 
 function setup() {
-    install_dependencies diceware rpmbuild selinux-policy-devel tito
+    install_dependencies diceware ripgrep rpmbuild selinux-policy-devel tito
 }
