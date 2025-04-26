@@ -29,6 +29,7 @@ $ flatpak --user override org.eclipse.Java --filesystem=~/.gitconfig
 
 ```console
 $ flatpak install dev.zed.Zed
+$ flatpak --user override dev.zed.Zed --nosocket=gpg-agent
 $ flatpak --user override dev.zed.Zed --socket=ssh-auth
 $ flatpak --user override dev.zed.Zed --persist=.ssh
 $ flatpak --user override dev.zed.Zed --nofilesystem=host
@@ -65,3 +66,23 @@ $ flatpak --user override org.musicbrainz.Picard --nofilesystem=home
 $ flatpak --user override org.musicbrainz.Picard --nofilesystem=/tmp
 $ flatpak --user override org.musicbrainz.Picard --filesystem=~/Downloads/_opus
 ```
+
+And set cleanup configuration
+
+Use `MusicBrainz Picard` to cleanup file naming and annotations on tracks.
+
+File Naming Script Editor should contain (Preset 3):
+
+```text
+$if2(%albumartist%,%artist%)/
+$if(%albumartist%,%album%/,)
+$if($gt(%totaldiscs%,1),%discnumber%-,)
+$if($and(%albumartist%,%tracknumber%),$num(%tracknumber%,2) ,)
+$if(%_multiartist%,%artist% - ,)
+%title%
+```
+
+In `Options` select:
+ Y: Rename Files
+ N: Move Files
+ Y: Save Tags
