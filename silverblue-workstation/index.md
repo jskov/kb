@@ -10,7 +10,7 @@ $ sudo rpm-ostree install gnome-tweaks
 $ sudo rpm-ostree install distrobox
 # Ghostty+tmux is just nice
 $ sudo rpm-ostree install ghostty tmux
-``
+```
 
 ## Systemd Homectl
 
