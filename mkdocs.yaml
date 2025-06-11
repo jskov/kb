@@ -1,0 +1,50 @@
+# Project information
+site_name: Mada Knowledge Base
+site_url: https://github.com/jskov/kb
+site_author: Jesper Skov
+site_description: >-
+  All the stuff that does not fit in my head...
+
+# Repository
+repo_name: jskov/kb
+repo_url: https://github.com/jskov/kb
+
+# Copyright
+copyright: Copyright &copy; 2024 - 2025 Jesper Skov
+
+docs_dir: docs
+
+nav:
+  - "Welcome": "index.md"
+  - "mada.dk":
+      - "mada/index.md"
+      - "Silverblue": "mada/silverblue/index.md"
+      - "DNS": "mada/dns/index.md"
+  - "Silverblue":
+      - "silverblue-workstation/index.md"
+      - "Toolbox": "silverblue-workstation/toolbox/index.md"
+      - "Tools": "silverblue-workstation/tools/index.md"
+  - "Hardware":
+      - "hardware/index.md"
+      - "Thinkpad": "hardware/thinkpad-t480s.md"
+
+# Configuration
+theme:
+  name: material
+  features:
+    #- toc.integrate
+    - navigation.instant
+    - navigation.indexes
+    - navigation.path
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+      baselevel: 2

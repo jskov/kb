@@ -5,6 +5,7 @@ Configuration of individual paks.
 See user overrides
 
 ```console
+$ flatpak permission-show NAME
 $ flatpak --user override --show NAME
 ```
 
@@ -86,3 +87,9 @@ In `Options` select:
  Y: Rename Files
  N: Move Files
  Y: Save Tags
+
+## Steam
+
+```console
+$ flatpak install com.valvesoftware.Steam com.valvesoftware.Steam.CompatibilityTool.Proton-GE
+```
