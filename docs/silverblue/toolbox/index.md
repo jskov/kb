@@ -11,8 +11,9 @@ $ sudo rpm-ostree install distrobox
 
 ## Instances
 
-* `backup`: for working with data backups. Mounts /opt
-* `java`: for java development. Installs OpenJDK 21+latest
+* `backup`: for working with data backups. Mounts `/opt`.
+* `containers`: for building containers.
+* `java`: for java development. Installs OpenJDK 21+latest.
 
 
 ## Setup
@@ -20,7 +21,7 @@ $ sudo rpm-ostree install distrobox
 Activated with
 
 ```console
-$ ln -s ~/git/kb/silverblue-workstation/toolbox/bashrc.d ~/.bashrc.d
+$ ln -s ~/git/kb/docs/silverblue/toolbox/bashrc.d ~/.bashrc.d
 ```
 
 And ensuring .bashrc contains:
@@ -32,9 +33,7 @@ if [ -d ~/.bashrc.d ]; then
         if [ -f "$rc" ]; then
             . "$rc"
         fi
-    done    
-fi      
+    done
+fi
 unset rc
 ```
-
-

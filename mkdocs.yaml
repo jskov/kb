@@ -21,9 +21,9 @@ nav:
       - "Silverblue": "mada/silverblue/index.md"
       - "DNS": "mada/dns/index.md"
   - "Silverblue":
-      - "silverblue-workstation/index.md"
-      - "Toolbox": "silverblue-workstation/toolbox/index.md"
-      - "Tools": "silverblue-workstation/tools/index.md"
+      - "silverblue/index.md"
+      - "Toolbox": "silverblue/toolbox/index.md"
+      - "Tools": "silverblue/tools/index.md"
   - "Hardware":
       - "hardware/index.md"
       - "Thinkpad": "hardware/thinkpad-t480s.md"

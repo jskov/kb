@@ -26,6 +26,8 @@ $ flatpak --user override org.eclipse.Java --filesystem=~/.gradle
 $ flatpak --user override org.eclipse.Java --filesystem=~/.gitconfig
 ```
 
+When it fails to start, `rm -rf .var/app/org.eclipse.Java/eclipse/configuration/org.eclipse.osgi`.
+
 ## Zed
 
 ```console

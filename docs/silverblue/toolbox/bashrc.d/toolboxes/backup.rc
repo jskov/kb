@@ -13,7 +13,7 @@ EOF
     ) | sudo tee /etc/yum.repos.d/JottaCLI.repo
 
     install_dependencies jotta-cli
-    install_dependencies diceware java-latest-openjdk xxhash opus-tools zstd
+    install_dependencies diceware java-latest-openjdk xxhash opus-tools whipper zstd
 }
 
 # Need to login with `jotta-cli login`
