@@ -16,6 +16,9 @@ docs_dir: docs
 
 nav:
   - "Welcome": "index.md"
+  - "Browsers":
+      - "browser/index.md"
+      - "FireFox": "browser/firefox/index.md"
   - "mada.dk":
       - "mada/index.md"
       - "Silverblue": "mada/silverblue/index.md"
