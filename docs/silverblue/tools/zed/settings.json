@@ -19,5 +19,10 @@
     "light": "One Light",
     "dark": "One Dark"
   },
+  "languages": {
+    "Markdown": {
+      "remove_trailing_whitespace_on_save": false
+    }
+  },
   "show_completions_on_input": false
 }
