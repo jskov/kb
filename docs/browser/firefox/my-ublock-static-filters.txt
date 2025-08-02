@@ -1,3 +1,6 @@
 ! Google Login box
-! From https://www.reddit.com/r/uBlockOrigin/wiki/solutions/?utm_source=reddit&utm_medium=usertext&utm_name=uBlockOrigin#wiki_google_login_dialogs_on_various_pages
+! From https://old.reddit.com/r/uBlockOrigin/wiki/solutions
 ||accounts.google.com/gsi/*$xhr,script,3p
+
+! Cookie nag on https://old.reddit.com
+old.reddit.com##.cookie-infobar.with-btn.with-icon.md-container-small.reddit-infobar
