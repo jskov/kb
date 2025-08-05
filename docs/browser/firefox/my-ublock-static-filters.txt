@@ -4,3 +4,12 @@
 
 ! Cookie nag on https://old.reddit.com
 old.reddit.com##.cookie-infobar.with-btn.with-icon.md-container-small.reddit-infobar
+
+! Version2 flahing stuff
+www.version2.dk##.tmk-block__zone-top.tmk-block
+www.version2.dk##.jobs-embed
+www.version2.dk##.tmk-block__zone-body.tmk-block
+
+! Ing flahing stuff
+ing.dk##.kevel-header.block-tm-kevel
+ing.dk##.tmk-block__zone-top.tmk-block

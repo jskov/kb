@@ -19,3 +19,5 @@ EOF
 # Need to login with `jotta-cli login`
 export JOTTAD_SYSTEMD=0
 run_jottad || true
+gpg-agent --daemon
+gpg-agent --pinentry-timeout 6000
