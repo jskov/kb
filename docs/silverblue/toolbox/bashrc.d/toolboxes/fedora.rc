@@ -1,0 +1,6 @@
+#! /bin/bash
+#  fedora.rc
+
+function setup() {
+    install_dependencies diceware copr-cli copr-rpmbuild tito
+}

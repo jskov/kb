@@ -12,6 +12,7 @@ $ sudo rpm-ostree install distrobox
 ## Instances
 
 * `backup`: for working with data backups. Mounts `/opt`.
+* `fedora`: for development of Fedora/RPM packages.
 * `containers`: for building containers.
 * `java`: for java development. Installs OpenJDK 21+latest.
 
