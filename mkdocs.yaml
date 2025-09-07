@@ -17,19 +17,18 @@ docs_dir: docs
 nav:
   - "Welcome": "index.md"
   - "Browsers":
-      - "browser/index.md"
+      - "Browsers": "browser/index.md"
       - "FireFox": "browser/firefox/index.md"
   - "Silverblue":
-      - "silverblue/index.md"
+      - "Silverblue": "silverblue/index.md"
       - "copr": "silverblue/copr/index.md"
       - "Toolbox": "silverblue/toolbox/index.md"
       - "Tools": "silverblue/tools/index.md"
   - "Hardware":
-      - "hardware/index.md"
+      - "Hardware": "hardware/index.md"
       - "Thinkpad": "hardware/thinkpad-t480s.md"
       - "mada.dk":
-          - "hardware/mada/index.md"
-          - "Silverblue": "hardware/mada/silverblue/index.md"
+          - "mada.dk": "hardware/mada/index.md"
           - "DNS": "hardware/mada/dns/index.md"
 
 # Configuration

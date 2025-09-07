@@ -2,8 +2,6 @@ A [T480s](https://wiki.archlinux.org/title/Lenovo_ThinkPad_T480s) with [Fedora S
 
 ## Layered Packages
 
-Fedora 
-
 ```console
 # Gnome tweaks for keyboard config
 # tmux for console multiplexing
