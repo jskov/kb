@@ -1,5 +1,28 @@
+The box running mada.dk is a headless box.
+
 ## Layered Packages
 
+
+## Power
+
+```console
+$ sudo rpm-ostree install power-profiles-daemon
+$ sudo powerprofilesctl set power-saver
+```
+
+## Firewall debugging
+
+```console
+# Enable
+$ sudo firewall-cmd --set-log-denied=all
+$ sudo firewall-cmd --get-log-denied
+
+# Monitor
+$ journalctl -x -e -f
+
+# Disable
+$ sudo firewall-cmd --set-log-denied=off
+```
 
 ## Home Assistant
 
