@@ -1,15 +1,28 @@
-# Hardware ThinkPad T480s
+A [T480s](https://wiki.archlinux.org/title/Lenovo_ThinkPad_T480s) with [Fedora Silverblue](../silverblue/index.md).
 
-See [arch wiki](https://wiki.archlinux.org/title/Lenovo_ThinkPad_T480s)
+## Layered Packages
 
+Fedora 
+
+```console
+# Gnome tweaks for keyboard config
+# tmux for console multiplexing
+$ sudo rpm-ostree install gnome-tweaks tmux
+
+# Distrobox better than toolbox
+$ sudo rpm-ostree install distrobox
+
+# Ghostty is just nice
+$ curl -fsSL "https://copr.fedorainfracloud.org/coprs/scottames/ghostty/repo/fedora-${VERSION_ID}/scottames-ghostty-fedora-${VERSION_ID}.repo" | sudo tee /etc/yum.repos.d/_copr:copr.fedorainfracloud.org:scottames:ghostty.repo
+$ sudo rpm-ostree install ghostty
+```
 
 ## Fingerprint Reader
 
+TBD
+
 https://www.reddit.com/r/Fedora/comments/s2l6i4/how_to_enabling_the_fingerprint_reader_on_the/
 https://www.reddit.com/r/Fedora/comments/oik8sq/comment/h4xvrqv/
-
-
-
 
 ## Card Reader
 
@@ -28,4 +41,3 @@ SUBSYSTEM=="usb", ACTION=="add", ATTR{idVendor}=="058f", ATTR{idProduct}=="9540"
 ```
 
 From https://forums.linuxmint.com/viewtopic.php?t=309559
-
