@@ -1,73 +1,82 @@
 # Flatpak
 
+
+## Listing
+
+$ flatpak remote-ls | grep openjdk
+
+## Configuration
+
 Configuration of individual paks.
 
 See user overrides
 
-```console
-$ flatpak permission-show NAME
-$ flatpak --user override --show NAME
+```sh
+flatpak permission-show NAME
+flatpak --user override --show NAME
 ```
 
 
-## Eclipse
+### Eclipse
 
 Allow access to SSH agent:
 
-```console
-$ flatpak install org.eclipse.Java
-$ flatpak --user override org.eclipse.Java --socket=ssh-auth
-$ flatpak --user override org.eclipse.Java --persist=.ssh
-$ flatpak --user override org.eclipse.Java --nofilesystem=host
-$ flatpak --user override org.eclipse.Java --filesystem=~/_eclipse
-$ flatpak --user override org.eclipse.Java --filesystem=~/git
-$ flatpak --user override org.eclipse.Java --filesystem=~/.m2
-$ flatpak --user override org.eclipse.Java --filesystem=~/.gradle
-$ flatpak --user override org.eclipse.Java --filesystem=~/.gitconfig
+```sh
+flatpak install org.eclipse.Java
+flatpak --user override org.eclipse.Java --socket=ssh-auth
+flatpak --user override org.eclipse.Java --persist=.ssh
+flatpak --user override org.eclipse.Java --nofilesystem=host
+flatpak --user override org.eclipse.Java --filesystem=~/_eclipse
+flatpak --user override org.eclipse.Java --filesystem=~/git
+flatpak --user override org.eclipse.Java --filesystem=~/.m2
+flatpak --user override org.eclipse.Java --filesystem=~/.gradle
+flatpak --user override org.eclipse.Java --filesystem=~/.gitconfig
 ```
 
-When it fails to start, `rm -rf .var/app/org.eclipse.Java/eclipse/configuration/org.eclipse.osgi`.
+When it fails to start, remove '.var/app/org.eclipse.Java/eclipse/configuration/org.eclipse.osgi' (or '.var/app/org.eclipse.Java').
 
-## Zed
+Additional JDKs, download and install in ~/git/_tools and add them in Eclipse.
 
-```console
-$ flatpak install dev.zed.Zed
-$ flatpak --user override dev.zed.Zed --nosocket=gpg-agent
-$ flatpak --user override dev.zed.Zed --socket=ssh-auth
-$ flatpak --user override dev.zed.Zed --persist=.ssh
-$ flatpak --user override dev.zed.Zed --nofilesystem=host
-$ flatpak --user override dev.zed.Zed --filesystem=~/git
-$ flatpak --user override dev.zed.Zed --filesystem=~/.gitconfig:ro
+### Zed
+
+```sh
+flatpak install dev.zed.Zed
+flatpak --user override dev.zed.Zed --nosocket=gpg-agent
+flatpak --user override dev.zed.Zed --socket=ssh-auth
+flatpak --user override dev.zed.Zed --persist=.ssh
+flatpak --user override dev.zed.Zed --nofilesystem=host
+flatpak --user override dev.zed.Zed --filesystem=~/git
+flatpak --user override dev.zed.Zed --filesystem=~/.gitconfig:ro
 ```
 
-## Vscodium
+### Vscodium
 
-```console
-$ flatpak install com.vscodium.codium
-$ flatpak --user override com.vscodium.codium --socket=ssh-auth
-$ flatpak --user override com.vscodium.codium --persist=.ssh
-$ flatpak --user override com.vscodium.codium --nofilesystem=host
-$ flatpak --user override com.vscodium.codium --filesystem=~/git
-$ flatpak --user override com.vscodium.codium --filesystem=~/.gitconfig:ro
+```sh
+flatpak install com.vscodium.codium
+flatpak --user override com.vscodium.codium --socket=ssh-auth
+flatpak --user override com.vscodium.codium --persist=.ssh
+flatpak --user override com.vscodium.codium --nofilesystem=host
+flatpak --user override com.vscodium.codium --filesystem=~/git
+flatpak --user override com.vscodium.codium --filesystem=~/.gitconfig:ro
 ```
 
-## Rhythmbox
+### Rhythmbox
 
 Music player
 
-```console
-$ flatpak install flathub com.github.taiko2k.tauonmb
-$ flatpak --user override org.gnome.Rhythmbox3 --filesystem=/opt/music:ro
+```sh
+flatpak install flathub com.github.taiko2k.tauonmb
+flatpak --user override org.gnome.Rhythmbox3 --filesystem=/opt/music:ro
 ```
 
-## Picard
+### Picard
 
-```console
-$ flatpak install flathub org.musicbrainz.Picard
-$ flatpak --user override org.musicbrainz.Picard --nodevice=all
-$ flatpak --user override org.musicbrainz.Picard --nofilesystem=home
-$ flatpak --user override org.musicbrainz.Picard --nofilesystem=/tmp
-$ flatpak --user override org.musicbrainz.Picard --filesystem=~/Downloads/_opus
+```sh
+flatpak install flathub org.musicbrainz.Picard
+flatpak --user override org.musicbrainz.Picard --nodevice=all
+flatpak --user override org.musicbrainz.Picard --nofilesystem=home
+flatpak --user override org.musicbrainz.Picard --nofilesystem=/tmp
+flatpak --user override org.musicbrainz.Picard --filesystem=~/Downloads/_opus
 ```
 
 And set cleanup configuration
@@ -90,8 +99,8 @@ In `Options` select:
  N: Move Files
  Y: Save Tags
 
-## Steam
+### Steam
 
-```console
-$ flatpak install com.valvesoftware.Steam com.valvesoftware.Steam.CompatibilityTool.Proton-GE
+```sh
+flatpak install com.valvesoftware.Steam com.valvesoftware.Steam.CompatibilityTool.Proton-GE
 ```

@@ -3,6 +3,5 @@
 
 function setup() {
     sudo dnf config-manager addrepo --from-repofile=https://cli.github.com/packages/rpm/gh-cli.repo
-    install_dependencies diceware gh java-21-openjdk-devel java-latest-openjdk-devel mkdocs mkdocs-material+recommended ripgrep 
+    install_dependencies diceware gh java-25-openjdk-devel java-latest-openjdk-devel mkdocs mkdocs-material+recommended ripgrep xxhash
 }
-
