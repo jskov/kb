@@ -22,20 +22,26 @@ flatpak --user override --show NAME
 Allow access to SSH agent:
 
 ```sh
+mkdir -p ~/eclipse-workspace ~/.m2 ~/.gradle ~/_tools
 flatpak install org.eclipse.Java
 flatpak --user override org.eclipse.Java --socket=ssh-auth
 flatpak --user override org.eclipse.Java --persist=.ssh
+flatpak --user override org.eclipse.Java --persist=.p2
 flatpak --user override org.eclipse.Java --nofilesystem=host
-flatpak --user override org.eclipse.Java --filesystem=~/_eclipse
+flatpak --user override org.eclipse.Java --filesystem=~/eclipse-workspace
 flatpak --user override org.eclipse.Java --filesystem=~/git
 flatpak --user override org.eclipse.Java --filesystem=~/.m2
 flatpak --user override org.eclipse.Java --filesystem=~/.gradle
 flatpak --user override org.eclipse.Java --filesystem=~/.gitconfig
+flatpak --user override org.eclipse.Java --filesystem=~/_tools:ro
+flatpak --user override org.eclipse.Java --env=HOME=/var/home/jskov
 ```
 
 When it fails to start, remove '.var/app/org.eclipse.Java/eclipse/configuration/org.eclipse.osgi' (or '.var/app/org.eclipse.Java').
 
-Additional JDKs, download and install in ~/git/_tools and add them in Eclipse.
+Install plugins via Marketplace (not via suggested popups like for java 25).
+
+Additional JDKs, download and install in ~/_tools and add them in Eclipse (use a path like '/var/home/jskov/_tools/jdk-25').
 
 ### Zed
 
