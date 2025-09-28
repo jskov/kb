@@ -1,0 +1,25 @@
+#! /bin/bash
+#  podman.rc
+# as per https://github.com/89luca89/distrobox/blob/main/docs/useful_tips.md#using-podman-inside-a-distrobox
+#
+# But this needs to be created/run by admin.
+# And even then I could not make it work.
+function setup() {
+    install_dependencies podman
+
+    sudo usermod --add-subuids 10000-65536 $USER
+    sudo usermod --add-subgids 10000-65536 $USER
+    (cat << EOF | sudo tee /etc/containers/containers.conf
+[containers]
+netns="host"
+userns="host"
+ipcns="host"
+utsns="host"
+cgroupns="host"
+log_driver = "k8s-file"
+[engine]
+cgroup_manager = "cgroupfs"
+events_logger="file"
+EOF
+    )
+}

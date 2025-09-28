@@ -36,11 +36,13 @@ then
 	alias c="echo 'Already in container $TOOLBOX_NAME'"
 	alias f="echo 'Already in container $TOOLBOX_NAME'"
 	alias j="echo 'Already in container $TOOLBOX_NAME'"
+	#alias p="echo 'Already in container $TOOLBOX_NAME'"
 	alias u="echo 'Already in container $TOOLBOX_NAME'"
 else
 	alias b='distrobox ls --no-color | awk "{ print \"@\" \$3 \"@\" }" | grep -q "@backup@"     && distrobox enter backup     || (distrobox create -i $baseImage backup --volume /opt:/opt && distrobox enter backup)'
 	alias c='distrobox ls --no-color | awk "{ print \"@\" \$3 \"@\" }" | grep -q "@containers@" && distrobox enter containers || (distrobox create -i $baseImage containers && distrobox enter containers)'
 	alias f='distrobox ls --no-color | awk "{ print \"@\" \$3 \"@\" }" | grep -q "@fedpra@"     && distrobox enter fedora     || (distrobox create -i $baseImage fedora && distrobox enter fedora)'
 	alias j='distrobox ls --no-color | awk "{ print \"@\" \$3 \"@\" }" | grep -q "@java@"       && distrobox enter java       || (distrobox create -i $baseImage java && distrobox enter java)'
+	#alias p='distrobox ls --no-color | awk "{ print \"@\" \$3 \"@\" }" | grep -q "@podman@"     && distrobox enter podman     || (distrobox create --root -i $baseImage podman --unshare-all && distrobox enter podman)'
 	alias u='distrobox ls --no-color | awk "{ print \"@\" \$3 \"@\" }" | grep -q "@ubuntu@"     && distrobox enter ubuntu     || (distrobox create -i ubuntu:25.04 ubuntu --volume /opt/ubuntu:/opt/ubuntu && distrobox enter ubuntu)'
 fi
