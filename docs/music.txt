@@ -25,7 +25,7 @@ The Alan Parsons Project/Eve
 The Alan Parsons Project/Eye in the Sky
 Alanis Morissette/jagged little pill
 Alanis Morissette/supposed former infatuation junkie
-#Alanis Morissette/Under Rug Swept (disc)
+Alanis Morissette/Under Rug Swept
 Alannah Myles/Alannah Myles
 Alannah Myles/Rockinghorse
 Alberte/Alle verdens hjørner
@@ -42,7 +42,7 @@ Alphabeat/Alphabeat
 Alphabeat/Express Non-Stop
 Alphabeat/The Spell
 Alphabeat/This Is Alphabeat
-#America/Greatest Hits (disc)
+America/History
 Amy Winehouse/Back to Black
 Amy Winehouse/Back to Black (bonus disc)
 Amy Winehouse/Frank
@@ -237,12 +237,14 @@ Color Blind/sway
 The Commitments/The Commitments, Volume 2
 The Commitments/The Commitments
 Corinne Bailey Rae/Corinne Bailey Rae
+The Corrs/Best Of
 The Corrs/forgiven not forgotten
+The Corrs/In Blue
 The Corrs/Talk on Corners
 The Corrs/Unplugged
 Cowgirls/girls night out
 Craig David/born to do it
-#Craig David/Trust Me (disc)
+Craig David/Trust Me
 The Cranberries/Everybody else is doing it, so why can't we?
 Crash Test Dummies/God Shuffled His Feet
 Crowded House/afterglow
@@ -351,7 +353,7 @@ Elvis Presley/Moody Blue
 Emilia/Big Big World
 Eminem/Curtain Call - The Hits
 Eminem/The Eminem Show
-#Emmylou Harris/Stumble Into Grace (disc)
+Emmylou Harris/Stumble Into Grace
 Enigma/le roi est mort vive le roi
 Enigma/mcmxc ad the limited edition
 Enigma/the cross of changes
@@ -389,14 +391,14 @@ Extreme/iii sides to every story
 Extreme/pornograffitti
 Fairground Attraction/The First of a Million Kisses
 Faith Hill/Faith
-#Faith Hill/There You'll Be (disc)
+Faith Hill/There You'll Be
 Fatboy Slim/youve come a long way baby
 Fatboy Slim/youve come a long way baby bonus cd
 The Fearless Flyers/Tailwinds
 The Fearless Flyers/The Fearless Flyers II
 The Fearless Flyers/The Fearless Flyers IV
 The Fearless Flyers/The Fearless Flyers
-#Fine Young Canibals/The Finest (disc)
+Fine Young Cannibals/The Finest
 Fleetwood Mac/behind the mask
 Fleetwood Mac/greatest hits
 Fleetwood Mac/heroes are hard to find
@@ -462,7 +464,7 @@ Hania Rani/Ghosts
 Hania Rani/Home
 Hank Marvin/guitar player
 Hanne Boel & Martin Hall/Boel & Hall
-#Hanne Boel/Abaco (disc)
+Hanne Boel/Abaco
 Hanne Boel/Beware Of The Dog
 Hanne Boel/Black Wolf
 Hanne Boel/Dark Passion
@@ -539,7 +541,7 @@ Johnny Cash/American V_ A Hundred Highways
 Johnny Cash/At San Quentin
 Johnny Deluxe/Luxus
 José González/Veneer
-#Joss Stone/The Soul Sessions (disc)
+Joss Stone/The Soul Sessions
 Jørgen Ryg/Hva' ska' vi med kvinder
 Julian Lennon/valotte
 Junior Senior/Hey Hey My My Yo Yo
@@ -657,7 +659,7 @@ Madness/its
 Madness/its madness too
 Madonna/Bedtime Stories
 Madonna/Confessions on a Dance Floor
-#Madonna/Hard Candy
+Madonna/Hard Candy
 Madonna/Like A Prayer
 Madonna/Like a Virgin
 Madonna/music
@@ -732,7 +734,7 @@ Michael Learns to Rock/Colours
 Michael Learns to Rock/Michael Learns to Rock
 Michael Learns to Rock/Played On Pepper
 Michael Learns to Rock/Strange Foreign Beauty
-#Michael McDonald/The Voice of
+Michael McDonald/The Voice Of Michael McDonald
 Mikael Simpson/Os 2+lidt ro 2002
 Mikael Simpson/Stille og uroligt
 Mike Oldfield/crises
@@ -769,8 +771,8 @@ Moonjam/Moonjam
 Moonjam/saxophonesongs volume ii
 Moonjam/songs for saxophone
 Moonjam/Østen for solen
-#Morcheeba/Big Calm (disc)
-#Morcheeba/Fragments of Freedom (disc)
+Morcheeba/Big Calm
+Morcheeba/Fragments Of Freedom
 Morten Remar/Solo
 Mr. Big/Lean Into It
 Mr. President/We See the Same Sun
@@ -932,7 +934,8 @@ Rasmus Walter/Rasmus Walter
 The Rat Pack/Live at the Sands
 The Rat Pack/Live In St. Louis With Count Basie
 The Raveonettes/Pretty in Black
-#Ray Charles/The Definitive (2 discs)
+#Ray Charles/The Definitive (disc 1 missing)
+Ray Charles/The Definitive Ray Charles
 Ray Dee Ohh/De største og de bedste
 Ray Dee Ohh/Radiofoni
 Ray Dee Ohh/Ray Dee Ohh
@@ -1110,6 +1113,7 @@ Sko_Torp/Heartland
 Sko_Torp/Hey You!
 Sko_Torp/On a Long Lonely Night
 Smokie/Celeration
+Snarky Puppy/Empire Central
 Sneakers/Katbeat
 Sneakers/Sneakers
 Sneakers/Sui-Sui
@@ -1192,8 +1196,6 @@ Texas/Mothers Heaven
 Texas/Ricks Road
 Texas/The Greatest Hits
 Texas/White on Blonde
-#The Corrs/In Blue (disc)
-#The Corrs/The Best Of (disc)
 Them Crooked Vultures/Them Crooked Vultures
 Thomas Buttenschøn/Fantastiske Mandag
 Thomas Helmig Brothers/Kære maskine
