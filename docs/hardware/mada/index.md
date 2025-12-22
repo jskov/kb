@@ -2,7 +2,30 @@ The box running mada.dk is a headless box with [Fedora Silverblue IoT](https://d
 
 ## Layered Packages
 
-*TBD*
+Missing:
+
+ * Pihole
+ * music
+ * photos
+ * booklore
+
+### distrobox
+
+Prefer this to toolbox since it can mount volumes.
+
+```console
+$ sudo rpm-ostree install distrobox
+$ sudo systemctl reboot
+```
+
+To allow use of *rsync* to sync media:
+
+```console
+$ distrobox create --name fedora --image registry.fedoraproject.org/fedora-toolbox:43
+$ distrobox enter fedora -- rsync --help
+```
+
+Now this is possible: `$ rsync -av --rsync-path="distrobox enter fedora -- rsync" /opt/music/ mada:/home/jskov/music/`.
 
 ## Operation
 
