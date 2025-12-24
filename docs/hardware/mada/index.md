@@ -43,6 +43,9 @@ $ sudo systemctl reboot
 
 # Rollback
 $ sudo rpm-ostree rollback --reboot
+
+# Pin entries, see https://docs.fedoraproject.org/en-US/fedora-silverblue/faq/
+$ sudo ostree admin pin 0
 ```
 
 ### Switching Release
