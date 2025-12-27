@@ -4,10 +4,11 @@ Provides RPM-builder and repositories to the community.
 
 See the offical [documentation](https://docs.pagure.org/copr.copr/user_documentation.html)
 
->[!Note]
->This works fine. But only makes sense for packages with multiple clients.
->My custom iot packages are only used by me, so I prefer to just keep the RPMs locally installed.
->I still build with Tito, but just the [Tagged Build](#tagged-build).
+!!! Note
+
+    This works fine. But only makes sense for packages with multiple clients.
+    My custom iot packages are only used by me, so I prefer to just keep the RPMs locally installed.  
+    I still build with Tito, but just the [Tagged Build](#tagged-build).
 
 ## Setup
 
@@ -19,7 +20,9 @@ Followed [guide](https://docs.pagure.org/copr.copr/screenshots_tutorial.html#scr
 
 ## Build Own Packages
 
-*Prep*
+Use Tito to build RPMs in a way that can result in an official COPR.
+
+### Prep
 
 In the repository, the file `.tito/tito.props` contains the Tito configuration:
 
