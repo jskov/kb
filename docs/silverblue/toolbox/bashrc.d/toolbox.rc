@@ -9,7 +9,7 @@ function install_dependencies() {
 	[ -f /.first_run ]  || sudo dnf -y install $@
 }
 
-baseImage=registry.fedoraproject.org/fedora-toolbox:42
+baseImage=registry.fedoraproject.org/fedora-toolbox:43
 
 if [ -f "/run/.toolboxenv" ]
 then
