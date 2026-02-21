@@ -36,6 +36,7 @@ Alicia Keys/songs in a minor
 Alien Beat Club/Diversity
 Alison Moyet/The Best Of
 All Saints/all saints
+All Saints/Saints & Sinners
 Allan Vegenfeldt/Free Your Mind
 Allure/Allure
 Alphabeat/Alphabeat
@@ -63,6 +64,8 @@ Andrew Strong/Strong
 Angelo Badalamenti/music from twin peaks
 Angie Stone/Black Diamond
 The Animals/The Complete Animals
+Ann-Louise/Wonder Wheel
+Ann-Mette Elten/Refrain
 Anna David/2
 Anna David/Anna David
 Anne Dorte Michelsen/Den ordløse time
@@ -143,6 +146,7 @@ Björk/Volta
 Björn Ulvaeus & Benny Andersson/Chess
 Blå Øjne/Romeo & Julie
 The Black Eyed Peas/Elephunk
+Blackstreet/Another level
 Bliglad/Kærlighed til Folket
 Bliss/A Hundred Thousand Angels
 Bloc Party/A Weekend in the City
@@ -151,11 +155,13 @@ Blondie/plastic letters
 Blue Foundation/Sweep of Days
 Blues Brothers And Friends/live from chicagos house of blues
 The Blues Brothers/The Blues Brothers
+Blunt/Reggae da nation
 Blur/blur
 Blur/leisure
 Blur/modern life is rubbish
 Blur/parklife
 Blur/the great escape
+BNB/Only Pop RNB
 Bo Kaspers orkester/Hittills
 Bo Kaspers orkester/Vilka tror vi att vi är
 Bob Dylan/Blonde on Blonde
@@ -205,6 +211,7 @@ Caroline Henderson/No. 8
 Carpark North/Carpark North
 Carpark North/Grateful
 Carpenters/The Singles 1969-1973
+Cats In Space/Too Many Gods
 Cæcilie Norby/Cæcilie Norby
 Cæcilie Norby/London-Paris
 Cæcilie Norby/My Corner of the Sky
@@ -229,6 +236,7 @@ Chris Isaak/Baja Sessions
 Chris Minh Doky/The Nomad Diaries
 Christian/Velkommen Til Begyndelsen
 Christina Aguilera/Stripped
+Christina/watching you
 Cliff Richard/Real as I Wanna Be
 Céline Dion/Amour
 Céline Dion/the colour of my love
@@ -307,6 +315,7 @@ Depeche Mode/Playing the Angel
 Depeche Mode/some great reward
 Depeche Mode/songs of faith and devotion
 Depeche Mode/Speak & Spell
+Depeche Mode/The Singles 86-98
 Depeche Mode/ultra cd stumm 148
 Depeche Mode/Violator
 Destiny's Child/8 Days Of Christmas
@@ -327,6 +336,7 @@ Dire Straits/dire straits
 Dire Straits/live at the bbc
 Dire Straits/love over gold  remastered
 Dire Straits/making movies
+Dishwalla/Dishwalla
 Dixie Chicks/Taking the Long Way
 Dizzy Mizz Lizzy/rotator
 Dodo and the Dodo's/Dodo & the Dodo's 5
@@ -370,9 +380,9 @@ Erann DD/Byen Kalder
 Erann DD/Still Believing
 Erann DD/That's The Way For Me
 Erasure/abbaesque
+Eric Clapton and Friends/The Breeze -  An Appreciation Of J J Cale
 Eric Clapton and The Yardbirds/Eric's Blues
 Eric Clapton/August
-Eric Clapton/The Breeze
 Eric Clapton/eric clapton unplugged
 Eric Clapton/from the cradle
 Eric Clapton/journeyman
@@ -429,6 +439,7 @@ Fugees/The Score
 Fun Lovin' Criminals/100 colombian
 Funkstar De Luxe/Keep On Moving (It’s Too Funky in Here)
 Funky White Devils/Devilicious
+Gangway/Happy Ever After
 Gary Barlow/Open road
 Gary Moore/dark days in paradise
 Gasolin/Rabalderstræde Forever
@@ -531,6 +542,7 @@ Jesper Karkov/Folkengine
 Jethro Tull/Stand Up
 Jette Torp/Here I Am
 Jette Torp/New Tracks
+Jette Torp/Snowflakes in fire
 Jill Scott/Experience Jill Scott 826+
 The Jimi Hendrix Experience/Electric Ladyland
 Joe Cocker/the best of joe cocker
@@ -618,6 +630,7 @@ Lars Muhl/kingdom come
 Lars Muhl/mandolina
 Lars Muhl/When Angels Fall
 Leigh Nash/Blue On Blue
+The Lejrbåls/The Lejrbåls
 Lena Philipsson/Bästa vänner
 Lenny Kravitz/Are You Gonna Go My Way
 Leona Lewis/Spirit
@@ -651,6 +664,7 @@ Lou Reed/Transformer
 Louis Armstrong/what a wonderful world
 Louis Armstrong/What a Wonderful World (Satchmo)
 Louis Prima/Jump, Jive an’ Wail
+Louise Hoffsten/Rhythm & Blonde
 Love Shop/DK
 Lukas Graham/Lukas Graham
 LukHash/C64 reMIXed
@@ -1001,6 +1015,7 @@ Rockers By Choice/nedtour live 89
 Rod Stewart/A Spanner In The Works
 Roger Hodgson/hai hai
 Roger Hodgson/in the eye of the storm
+Roger Stevens/We Are Now Approaching Hassocks
 Roger Waters/amused to death
 Roger Waters/radio kaos
 Roger Waters/the pros and cons of hitch hiking
@@ -1172,10 +1187,12 @@ Sting/ten summoners tales
 Sting/The Best Of Sting
 Sting/the dream of the blue turtles
 Sting/the soul cages
+Østkyst Hustlers/Fuld Af Løgn
 The Streets/A Grand Don't Come for Free
 The Streets/Everything is borrowed
 The Streets/Original Pirate Material
 Suede/Coming Up
+Sugar/File Under Easy Listening
 Sunstroke PM/Free to funk
 Sunzet/Rizing
 Supertramp/Supertramp
@@ -1291,6 +1308,7 @@ Tys Tys/Go Get Some
 U2/achtung baby
 U2/No Line on the Horizon
 U2/october
+U2/Pop
 U2/the joshua tree
 U2/the unforgettable fire
 U2/zooropa
@@ -1318,10 +1336,13 @@ Various Artists/åh abe
 Various Artists/HipZip Complementary Music
 Various Artists/jingle bells
 Various Artists/Just Can't Get Enough
+Various Artists/Kim Schumacher - Stemmen fra 80'erne
 Various Artists/Love actually
 Various Artists/More Music 2012
 Various Artists/Most Wanted Julehits (disc 1)
 Various Artists/Most Wanted Julehits (disc 2)
+Various Artists/Now That's What I Call Music! 61
+#Various artists/Now that's What I call Music! 61 (missing disc 1)
 Various Artists/opera
 Various Artists/På danske læber
 Various Artists/Pa-Papegøje
@@ -1386,6 +1407,7 @@ Wolfgang Amadeus Mozart/piano concerto no 21 elvira madigan  symphony no 40 in g
 Wolfgang Amadeus Mozart/Piano Concertos 20 & 23 - Annie Fischer
 Wyclef Jean/Welcome to Haiti: Creole 101
 You Know Who/You Know Who
+Yuki/Room Next Door
 Zapp Zapp/what does fish is 
 Zapp Zapp/you better believe
 Zididada/Happy Fool
