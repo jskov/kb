@@ -86,6 +86,7 @@ Annie Lennox/Medusa
 Antonio Vivaldi/four seasons
 Arcade Fire/Neon Bible
 Arctic Monkeys/Humbug
+Atomic Kitten/Ladies Night
 Audioslave/Revelations
 Avril Lavigne/Let Go
 Avril Lavigne/The Best Damn Thing
@@ -178,6 +179,8 @@ Boney M/The Complete Collection
 Bonnie Tyler/The Best
 Bonnie Tyler/The Ultimate Collection
 Boyz II Men/Evolution
+Boyzone/By Request
+Boyzone/Where We Belong
 The Brand New Heavies/Heavy Ryhme Experience, Volume 1
 The Brand New Heavies/shelter
 Brian McFadden/Irish Son
@@ -345,11 +348,14 @@ Dodo and the Dodo's/Dodo and the Dodo's 4
 Dolly Parton/Best Of
 Donna Lewis/Now in a minute
 The Doors/The Doors
+Dr. Hook/A Little Bit More
 Drori-Hansen Furniture/Family
 Drori-Hansen Furniture/For their friends
 Duffy/Endlessly
 Duffy/Rockferry
 Eagles/the very best of the eagles
+#Edit Piaf/The very best of Edith Piaf (missing discs 1+3)
+Edith Piaf/The very best of Edith Piaf
 Editors/An End Has a Start
 Electric Light Orchestra/zoom
 Ella Fitzgerald/Something to Live For
@@ -513,12 +519,14 @@ James Blunt/Back to Bedlam
 James Morrison/Songs for You, Truths for Me
 James Morrison/Undiscovered
 James Sampson/All I Want
+James Sampson/James
 Jamie Cullum/Catching Tales
 Jamie Cullum/Twenty Something
 Jamiroquai/synkronized
 Jamiroquai/travelling without moving
 Janet Jackson/Velvet Rope
 Janet/janet.
+Jazzy Jeff & Fresh Prince/Greatest Hits
 Jean Michel Jarre/chronologie
 Jean Michel Jarre/Electronica 1: The Time Machine
 Jean Michel Jarre/Electronica 2: The Heart of Noise
@@ -543,6 +551,7 @@ Jethro Tull/Stand Up
 Jette Torp/Here I Am
 Jette Torp/New Tracks
 Jette Torp/Snowflakes in fire
+Jewel/Spirit
 Jill Scott/Experience Jill Scott 826+
 The Jimi Hendrix Experience/Electric Ladyland
 Joe Cocker/the best of joe cocker
@@ -565,6 +574,7 @@ Joss Stone/The Soul Sessions
 Jørgen Ryg/Hva' ska' vi med kvinder
 Julian Lennon/valotte
 Junior Senior/Hey Hey My My Yo Yo
+Justin Bieber/Purpose
 Justin Timberlake/FutureSex-LoveSounds
 K.D.Lang/Ingénue
 K.D.Lang/invincible summer
@@ -594,7 +604,10 @@ Katie Melua/Piece by Piece
 Katie Melua/The House
 Kaya/Kaya
 Kaya/Sweet Reality
+Kaya/The State I'm In
 Kelly Clarkson/Breakaway
+The Kelly Family/From Their Hearts
+The Kelly Family/Growin' Up
 Kelly Rowland/Simply deep
 Kick The Kangaroo/Bits & pieces
 Kim Larsen & Bellami/Forklædt som voksen
@@ -641,6 +654,7 @@ Leonard Cohen/Songs From the Road
 Linnet & Salomonsen/Krig Og Kærlighed
 Lionel Richie/Back to Front
 Lis Sørensen/Con Amor
+Lis Sørensen/Kærtegn
 Lis Sørensen/Tæt på ækvator
 Lis Sørensen/Under stjernerne et sted
 Lisa Ekdahl/back to earth
@@ -670,6 +684,7 @@ Lukas Graham/Lukas Graham
 LukHash/C64 reMIXed
 LukHash/Home Arcade
 LukHash/Virtual Burnout
+Lutricia McNeal/My Side Of Town
 Lykke Li/Wounded Rhymes
 Lyngby-Taarbæk Brass Band/Lad det klinge sødt...
 M People/Elegant Slumming
@@ -747,6 +762,7 @@ Michael Bolton/All That Matters
 Michael Bolton/At Last
 Michael Bolton/Everybody’s Crazy
 Michael Bolton/time love  tenderness
+Michael Bublé/Crazy Love
 Michael Falch/Mød mig i mørket
 Michael Jackson/Bad
 Michael Jackson/Blood on the Dance Floor: HIStory in the Mix
@@ -760,6 +776,7 @@ Michael Learns to Rock/Strange Foreign Beauty
 Michael McDonald/The Voice Of Michael McDonald
 Mikael Simpson/Os 2+lidt ro 2002
 Mikael Simpson/Stille og uroligt
+Mike & The Mechanics/Hits
 Mike Oldfield/crises
 Mike Oldfield/five miles out
 Mike Oldfield/Music of the Spheres
@@ -846,6 +863,7 @@ Oh Land/Fauna
 Oh Land/Oh Land [Deluxe]
 Oh No Ono/Yes
 Olivia Newton-John/I Honestly Love You
+One Two/Getting Better
 One Two/Hvide løgne
 One Two/One Two
 The Oscar Peterson Trio/night train
@@ -856,6 +874,7 @@ Outlandish/Closer Than Veins
 På slaget 12/Hjem til Århus
 På slaget 12/Let's Dance
 På slaget 12/Let's Dance 2
+På slaget 12/På Slaget 12 Spiller På Slaget 12
 På slaget 12/PS 12
 På slaget 12/Sidst I September
 På slaget 12/Tror Du Virk'lig Livet Bli'r Genudsendt
@@ -920,6 +939,7 @@ Poul Krebs/Forbandede vidunderlige tøs
 Poul Krebs/Kosmorama
 Poul Krebs/Ku Den Næste Dans Blive Min?
 Poul Krebs/Små Sensationer
+Pras/Ghetto Supastar
 Press Play On Tape/Home Computer
 Press Play On Tape/kwed-remix
 Press Play On Tape/Loading Ready Run
@@ -1339,6 +1359,7 @@ Various Artists/Just Can't Get Enough
 Various Artists/Kim Schumacher - Stemmen fra 80'erne
 Various Artists/Love actually
 Various Artists/More Music 2012
+Various Artists/Most Wanted Evergreens
 Various Artists/Most Wanted Julehits (disc 1)
 Various Artists/Most Wanted Julehits (disc 2)
 Various Artists/Now That's What I Call Music! 61
@@ -1358,6 +1379,7 @@ Various Artists/Synthesizer Greatest, Volume 4
 Various Artists/Synthesizer Greatest, Volume 5
 Various Artists/The Christmas Story
 Various Artists/the fabulous baker boys
+Various Artists/The Synthesizer Greatest - Volume 2
 Various Artists/The World of Digital Classics, Sampler 2
 Various Artists/The World of Digital Classics, Sampler 3
 Various Artists/We are the 90's - Cd1
