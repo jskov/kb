@@ -32,7 +32,6 @@ Alberte/Alle verdens hjørner
 Alberte/Den forsvundne skat
 Alberte/Lyse nætter
 Alicia Keys/songs in a minor
-#Alien Beat Club/Definitive (3 tracks)
 Alien Beat Club/Diversity
 Alison Moyet/The Best Of
 All Saints/all saints
@@ -102,6 +101,7 @@ Bamse/Lidt for mig selv
 Bamse/Vores Damer
 Bananarama/Wow!
 The Band/The Shape I'm In
+Bangles/Everything
 Barbra Streisand/A Collection Greatest Hits… and More
 Barry White/Your Heart and Soul
 BaSix/Christmastime
@@ -210,7 +210,6 @@ Caroline Henderson/cinemataztic
 Caroline Henderson/dolores j  the butterfly
 Caroline Henderson/metamorphing
 Caroline Henderson/No. 8
-#Caroline Henderson/No. 8 (track #11)
 Carpark North/Carpark North
 Carpark North/Grateful
 Carpenters/The Singles 1969-1973
@@ -510,9 +509,9 @@ I Got You on Tape/I Got You on Tape
 Ibens/Maskulin
 Inside the Whale/Jack in the Box
 Iron Maiden/Powerslave
-#Iron Maiden/Poweslave (2 tracks)
 Isaac Hayes/Out of the Ghetto
 Jack Johnson/On and On
+Jackopierce/Bringing On The Weather
 Jacob Haugaard/Så'n er livet
 James Blake/Overgrown
 James Blunt/Back to Bedlam
@@ -650,7 +649,6 @@ Leona Lewis/Spirit
 Leonard Cohen/Old Ideas
 Leonard Cohen/Popular Problems
 Leonard Cohen/Songs From the Road
-#Leonard Cohen/Songs from the Road (track #6)
 Linnet & Salomonsen/Krig Og Kærlighed
 Lionel Richie/Back to Front
 Lis Sørensen/Con Amor
@@ -741,6 +739,7 @@ Mark Morrison/Return Of The Mack
 Mark Ronson/Version
 Marky Mark and the Funky Bunch/Music for the People
 Mary J. Blige/The Breakthrough
+Maurice Ravel/Bolero
 The Mavericks/Trampoline
 MC Einar/Arh dér
 MC Einar/Og sådn noget
@@ -763,12 +762,12 @@ Michael Bolton/At Last
 Michael Bolton/Everybody’s Crazy
 Michael Bolton/time love  tenderness
 Michael Bublé/Crazy Love
+Michael Bublé/Michael Bublé
 Michael Falch/Mød mig i mørket
 Michael Jackson/Bad
 Michael Jackson/Blood on the Dance Floor: HIStory in the Mix
 Michael Jackson/Dangerous
 Michael Jackson/HIStory
-#Michael Jackson/HIStory (track 02#14)
 Michael Learns to Rock/Colours
 Michael Learns to Rock/Michael Learns to Rock
 Michael Learns to Rock/Played On Pepper
@@ -956,6 +955,7 @@ R.E.M./green
 R.E.M./murmur
 R.E.M./new adventures in hifi
 R.E.M./out of time
+R.E.M./Reckoning
 Radiohead/OK Computer
 Rage Against the Machine/Rage Against the Machine
 Randi Laubek/Almost Gracefully
@@ -1341,53 +1341,58 @@ Vangelis/gift
 Vangelis/oceanic
 Vangelis/soil festivities
 Vangelis/themes
-Various Artists/10 spor under overfladen
-Various Artists/all that
-Various Artists/Best of the 90’s
-Various Artists/Brygmann's Bedste Sange
-Various Artists/C64-bonus
-Various Artists/cocktail
-Various Artists/Fra Alle Os Til Alle Jer
-Various Artists/From all of us
-Various Artists/Greatest Hits: 20 Great Songs of Peace
-Various Artists/Greatest Julehits
-Various Artists/Guitar Speak
-Various Artists/åh abe
-Various Artists/HipZip Complementary Music
-Various Artists/jingle bells
-Various Artists/Just Can't Get Enough
-Various Artists/Kim Schumacher - Stemmen fra 80'erne
-Various Artists/Love actually
-Various Artists/More Music 2012
-Various Artists/Most Wanted Evergreens
-Various Artists/Most Wanted Julehits (disc 1)
-Various Artists/Most Wanted Julehits (disc 2)
-Various Artists/Now That's What I Call Music! 61
+Various 0-C/10 spor under overfladen
+Various 0-C/all that
+Various 0-C/Best of the 90’s
+Various 0-C/Brygmann's Bedste Sange
+Various 0-C/C64-bonus
+Various 0-C/Club Mix '98
+Various 0-C/cocktail
 #Various artists/Now that's What I call Music! 61 (missing disc 1)
-Various Artists/opera
-Various Artists/På danske læber
-Various Artists/Pa-Papegøje
-Various Artists/Pulp Fiction
-Various Artists/Remember the 90s
-Various Artists/SanDisk Music
-Various Artists/Søde sange
-Various Artists/Something Special
-Various Artists/South Park - Bigger, Longer & Uncut
-Various Artists/Spot-festival 2007
-Various Artists/Synthesizer Greatest, Volume 1
-Various Artists/Synthesizer Greatest, Volume 4
-Various Artists/Synthesizer Greatest, Volume 5
-Various Artists/The Christmas Story
-Various Artists/the fabulous baker boys
-Various Artists/The Synthesizer Greatest - Volume 2
-Various Artists/The World of Digital Classics, Sampler 2
-Various Artists/The World of Digital Classics, Sampler 3
-Various Artists/We are the 90's - Cd1
-Various Artists/We are the 90's - Cd2
-Various Artists/winter wonderland
+Various D-G/Dance Collection 4
+Various D-G/Dance The Night Away
+Various D-G/Fra Alle Os Til Alle Jer
+Various D-G/From all of us
+Various D-G/Greatest Hits: 20 Great Songs of Peace
+Various D-G/Greatest Julehits
+Various D-G/Guitar Speak
+Various H-L/HipZip Complementary Music
+Various H-L/jingle bells
+Various H-L/Just Can't Get Enough
+Various H-L/Kim Schumacher - Stemmen fra 80'erne
+Various H-L/Love actually
+Various M/More Music 2012
+Various M/Most Wanted Evergreens
+Various M/Most Wanted Julehits (disc 1)
+Various M/Most Wanted Julehits (disc 2)
+Various N-R/Now That's What I Call Music! 61
+Various N-R/O Brother, Where Art Thou
+Various N-R/opera
+Various N-R/På danske læber
+Various N-R/Pa-Papegøje
+Various N-R/Pulp Fiction
+Various N-R/Remember the 90s
+Various S/SanDisk Music
+Various S/Søde sange
+Various S/Something Special
+Various S/South Park - Bigger, Longer & Uncut
+Various S/Spot-festival 2007
+Various S/Synthesizer Greatest, Volume 1
+Various S/Synthesizer Greatest, Volume 4
+Various S/Synthesizer Greatest, Volume 5
+Various T/The Christmas Story
+Various T/the fabulous baker boys
+Various T/The Synthesizer Greatest - Volume 2
+Various T/The World of Digital Classics, Sampler 2
+Various T/The World of Digital Classics, Sampler 3
+Various U-Å/åh abe
+Various U-Å/We are the 90's - Cd1
+Various U-Å/We are the 90's - Cd2
+Various U-Å/winter wonderland
 Vaya Con Dios/Time Flies
 Venter på  far/undskyld
 Venter på  far/vupti
+Viggo Sommer/Så Sku' Den Ged Vist Være Barberet
 Village People/Greatest Hits
 Visa Röster/commodore 64 vocally
 Visa Röster/ready vocally too
