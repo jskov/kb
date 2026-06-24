@@ -41,7 +41,9 @@ When it fails to start, remove '.var/app/org.eclipse.Java/eclipse/configuration/
 
 Install plugins via Marketplace (not via suggested popups like for java 25).
 
-Additional JDKs, download and install in ~/_tools and add them in Eclipse (use a path like '/var/home/jskov/_tools/jdk-25').
+Additional JDKs, download and install in ~/_tools and add them in Eclipse (use a path like '/var/home/jskov/_tools/jdk-25'):
+ - Java runtimes
+ - Gradle java home
 
 ### Zed
 
