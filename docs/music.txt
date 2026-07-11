@@ -1,4 +1,5 @@
-﻿4 Non Blondes/Bigger, Better, Faster, More!
+﻿3T/Brotherhood
+4 Non Blondes/Bigger, Better, Faster, More!
 A-ha/Lifelines
 Aaliyah/One in a Million
 ABBA/gold  greatest hits
@@ -24,6 +25,7 @@ The Alan Parsons Project/Ammonia Avenue
 The Alan Parsons Project/Eve
 The Alan Parsons Project/Eye in the Sky
 Alanis Morissette/jagged little pill
+Alanis Morissette/MTV Unplugged
 Alanis Morissette/supposed former infatuation junkie
 Alanis Morissette/Under Rug Swept
 Alannah Myles/Alannah Myles
@@ -63,7 +65,9 @@ Andrew Strong/Strong
 Angelo Badalamenti/music from twin peaks
 Angie Stone/Black Diamond
 The Animals/The Complete Animals
+Ankerstjerne/Ankerstjerne
 Ann-Louise/Wonder Wheel
+Ann-Mette Elten/Hot Hot
 Ann-Mette Elten/Refrain
 Anna David/2
 Anna David/Anna David
@@ -85,8 +89,10 @@ Annie Lennox/Medusa
 Antonio Vivaldi/four seasons
 Arcade Fire/Neon Bible
 Arctic Monkeys/Humbug
+The Ark/Prayer For The Weekend
 Atomic Kitten/Ladies Night
 Audioslave/Revelations
+Aura/Colombine
 Avril Lavigne/Let Go
 Avril Lavigne/The Best Damn Thing
 The Axel Boys Quartet/Casino Royal
@@ -147,6 +153,7 @@ Björk/Volta
 Björn Ulvaeus & Benny Andersson/Chess
 Blå Øjne/Romeo & Julie
 The Black Eyed Peas/Elephunk
+The Black Eyed Peas/Monkey Business
 Blackstreet/Another level
 Bliglad/Kærlighed til Folket
 Bliss/A Hundred Thousand Angels
@@ -174,6 +181,9 @@ Bob Dylan/_Love and Theft_
 Bobby McFerrin/bobby mcferrin
 Bobby McFerrin/circlesongs
 Bobby McFerrin/simple pleasures
+Bon Jovi/Bounce
+Bon Jovi/Crush
+Bon Jovi/Lost Highway
 Bon Jovi/These Days
 Boney M/The Complete Collection
 Bonnie Tyler/The Best
@@ -185,6 +195,8 @@ The Brand New Heavies/Heavy Ryhme Experience, Volume 1
 The Brand New Heavies/shelter
 Brian McFadden/Irish Son
 Brimstone Butterfly/Normality Killed The Cat
+Brinck/Brinck
+Britney Spears/...Baby One More Time
 Britney Spears/Circus
 Britney Spears/Oops! I Did It Again
 The Bronson Brothers/The Melody Bronson
@@ -201,6 +213,7 @@ Bryan Ferry/The Ultimate Collection
 Bryan Rice/Confessional
 The Byrds/Mr. Tambourine Man
 C.V. Jørgensen/Tidens tern
+C21/C21
 Camille Jones/Camille Jones
 The Cardigans/emmerdale
 The Cardigans/first band on the moon
@@ -213,6 +226,7 @@ Caroline Henderson/No. 8
 Carpark North/Carpark North
 Carpark North/Grateful
 Carpenters/The Singles 1969-1973
+Carrie Underwood/Play On
 Cats In Space/Too Many Gods
 Cæcilie Norby/Cæcilie Norby
 Cæcilie Norby/London-Paris
@@ -236,6 +250,7 @@ Chris Abbott/Galway Remixed
 Chris de Burgh/The Getaway
 Chris Isaak/Baja Sessions
 Chris Minh Doky/The Nomad Diaries
+Christian/Du kan gøre hvad du vil
 Christian/Velkommen Til Begyndelsen
 Christina Aguilera/Stripped
 Christina/watching you
@@ -325,6 +340,8 @@ Det Brune Punktum/Far brugte ikke noget
 Det Brune Punktum/Helbredelsen
 Diana Krall/All For You
 Dicte & The Sugar Bones/Dicte & The Sugar Bones
+Dicte/Between Any Four Walls
+Dicte/Voodoo Vibe
 Dido/Life for Rent
 Dido/no angel
 Dido/Safe Trip Home
@@ -348,10 +365,13 @@ Dolly Parton/Best Of
 Donna Lewis/Now in a minute
 The Doors/The Doors
 Dr. Hook/A Little Bit More
+Drengene fra Angora/Drengene fra Angora
 Drori-Hansen Furniture/Family
 Drori-Hansen Furniture/For their friends
 Duffy/Endlessly
 Duffy/Rockferry
+Duran Duran/Greatest
+Dusty Stringfield/Reputation
 Eagles/the very best of the eagles
 #Edit Piaf/The very best of Edith Piaf (missing discs 1+3)
 Edith Piaf/The very best of Edith Piaf
@@ -360,6 +380,7 @@ Electric Light Orchestra/zoom
 Ella Fitzgerald/Something to Live For
 Elton John/aida
 Elton John/dont shoot me im only the piano player
+Elton John/Duets
 Elton John/goodbye yellow brick road
 Elton John/made in england
 Elton John/The Big Picture
@@ -408,6 +429,16 @@ Eurythmics/peace
 Eurythmics/revenge
 Eurythmics/sweet dreams are made of this
 Eurythmics/we too are one
+Extreme Behavior/01 Get Stoned.opus"
+Extreme Behavior/02 How Long.opus"
+Extreme Behavior/03 By the Way.opus"
+Extreme Behavior/04 Nothin’ Good About Goodbye.opus"
+Extreme Behavior/05 Bliss (I Don’t Wanna Know).opus"
+Extreme Behavior/06 Better Than Me.opus"
+Extreme Behavior/07 Room 21.opus"
+Extreme Behavior/08 Lips of an Angel.opus"
+Extreme Behavior/09 Homecoming Queen.opus"
+Extreme Behavior/10 Shoulda.opus"
 Extreme/iii sides to every story
 Extreme/pornograffitti
 Fairground Attraction/The First of a Million Kisses
@@ -437,6 +468,8 @@ Frank Sinatra/Nothing But the Best
 Franz Ferdinand/Franz Ferdinand
 Franz Ferdinand/Tonight_ Franz Ferdinand
 Franz Ferdinand/You Could Have It So Much Better
+Freddie Mercury/The Freddie Mercury Album
+Freddy Birset/Souvenirs de France
 Freedom/hang on
 Freya/chasing my tale
 Freya/tea with the queen
@@ -476,6 +509,7 @@ Gnags/Ridser, revner & buler
 Gnags/Skitsernes drøm
 Gnarls Barkley/St. Elsewhere
 Gnarls Barkley/The Odd Couple
+Green Day/American Idiot
 Gudrun Jacobsen/Quiet Storm
 Guns N' Roses/Appetite for Destruction
 Gwen Stefani/Love Angel Music Baby
@@ -512,6 +546,7 @@ Iron Maiden/Powerslave
 Isaac Hayes/Out of the Ghetto
 Jack Johnson/On and On
 Jackopierce/Bringing On The Weather
+The Jackson 5/The Best of Michael Jackson & The Jackson 5ive
 Jacob Haugaard/Så'n er livet
 James Blake/Overgrown
 James Blunt/Back to Bedlam
@@ -522,6 +557,7 @@ James Sampson/James
 Jamie Cullum/Catching Tales
 Jamie Cullum/Twenty Something
 Jamiroquai/synkronized
+Jamiroquai/The Return of the Space Cowboy
 Jamiroquai/travelling without moving
 Janet Jackson/Velvet Rope
 Janet/janet.
@@ -546,14 +582,18 @@ Jeff Buckley/So Real_ Songs From Jeff Buckley
 Jennifer Lopez/Rebirth
 Jerry Lee Lewis/Greatest Hits live
 Jesper Karkov/Folkengine
+Jessie J/Who You Are
 Jethro Tull/Stand Up
 Jette Torp/Here I Am
 Jette Torp/New Tracks
 Jette Torp/Snowflakes in fire
+Jewel/Pieces Of You
 Jewel/Spirit
 Jill Scott/Experience Jill Scott 826+
 The Jimi Hendrix Experience/Electric Ladyland
 Joe Cocker/the best of joe cocker
+Joey Moe/Joey
+John Denver/The Rocky Mountain Collection
 John Illsley/glass
 John Lennon/imagine
 John Lennon/the john lennon collection
@@ -562,12 +602,15 @@ John Mayer/Battle Studies
 John Mayer/Continuum
 John Mayer/Heavier Things
 John Mayer/Room for Squares
+John Mogensen/Stop En Halv
 Johnny Cash/American III_ Solitary Man
 Johnny Cash/American IV_ The Man Comes Around
 Johnny Cash/American V_ A Hundred Highways
 Johnny Cash/At San Quentin
+Johnny Deluxe/Johnny Deluxe
 Johnny Deluxe/Luxus
 Johnny Logan/Reach For Me
+Jonny Lang/Wander This World
 José González/Veneer
 Joss Stone/The Soul Sessions
 Jørgen Ryg/Hva' ska' vi med kvinder
@@ -601,12 +644,15 @@ Katie Melua/Call Off the Search
 Katie Melua/Pictures
 Katie Melua/Piece by Piece
 Katie Melua/The House
+Katy Perry/One Of The Boys
 Kaya/Kaya
 Kaya/Sweet Reality
 Kaya/The State I'm In
+Kelis/Tasty
 Kelly Clarkson/Breakaway
 The Kelly Family/From Their Hearts
 The Kelly Family/Growin' Up
+Kelly Osbourne/Shut Up
 Kelly Rowland/Simply deep
 Kick The Kangaroo/Bits & pieces
 Kim Larsen & Bellami/Forklædt som voksen
@@ -631,6 +677,7 @@ Kraftwerk/Trans-Europe Express
 KT Tunstall/Drastic Fantastic
 KT Tunstall/Eye to the Telescope
 Kylie Minogue/Body Language
+Kylie Minogue/Fever
 Kylie Minogue/Kylie Minogue
 Kylie Minogue/Light Years
 L.O.C./Cassiopeia
@@ -644,6 +691,7 @@ Lars Muhl/When Angels Fall
 Leigh Nash/Blue On Blue
 The Lejrbåls/The Lejrbåls
 Lena Philipsson/Bästa vänner
+Lene Nystrom/Play With Me
 Lenny Kravitz/Are You Gonna Go My Way
 Leona Lewis/Spirit
 Leonard Cohen/Old Ideas
@@ -722,27 +770,34 @@ The Manhattan Transfer/the offbeat of avenues
 The Manhattan Transfer/Tonin'
 The Manhattan Transfer/vocalese
 Manic Street Preachers/Know Your Enemy
+Manic Street Preachers/This Is My Truth Tell Me Yours
 Marc Cohn/Marc Cohn
 Marcel Donne/Sidologie
 Maria Quatro Bossa/Amor
 Mariah Carey/Butterfly
 Mariah Carey/Emotions
+Mariah Carey/Merry Christmas
 Mariah Carey/Music Box
 Marie Frank/ancient pleasures
 Marie Frank/swimmingly
 Marie Frank/Vermilion
 Marie Key/I Byen Igen
+Marie Lindberg/Trying to Recall
 Mark Dixon/Supply & Demand
 Mark Knopfler/Sailing to Philadelphia
 Mark Knopfler/Shangri-La
 Mark Morrison/Return Of The Mack
 Mark Ronson/Version
 Marky Mark and the Funky Bunch/Music for the People
+Mary J. Blige/No More Drama
 Mary J. Blige/The Breakthrough
 Maurice Ravel/Bolero
 The Mavericks/Trampoline
 MC Einar/Arh dér
 MC Einar/Og sådn noget
+Medina/For altid
+Medina/Velkommen til Medina
+Meghan Trainor/Title
 Melanie C/northern star
 Melody Gardot/My One and Only Thrill
 Melody Gardot/Worrisome Heart
@@ -768,6 +823,7 @@ Michael Jackson/Bad
 Michael Jackson/Blood on the Dance Floor: HIStory in the Mix
 Michael Jackson/Dangerous
 Michael Jackson/HIStory
+Michael Jackson/Michael
 Michael Learns to Rock/Colours
 Michael Learns to Rock/Michael Learns to Rock
 Michael Learns to Rock/Played On Pepper
@@ -840,9 +896,13 @@ News/Sæt Sejl
 Nice Little Penguins/Flying
 Nicolai Funch/Hooked
 Niels-Henning Ørsted Pedersen /Friends Forever
+Nik & Jay/2
+Nik & Jay/3 - Fresh Fri Fly
+Nik & Jay/De Største
 Nik & Jay/Nik & Jay
 Nik Kershaw/Human Racing
 Nikka Costa/everybody got their something
+Nikolaj & Piloterne/Sidder På En Raket
 Nikolaj Steen/Blindfolded
 Nikolaj Steen/Closer
 Nina Simone/The Essential Nina Simone
@@ -860,15 +920,18 @@ Oasis/be here now
 Oasis/definitely maybe
 Oh Land/Fauna
 Oh Land/Oh Land [Deluxe]
+Oh Land/Wish Bone
 Oh No Ono/Yes
 Olivia Newton-John/I Honestly Love You
 One Two/Getting Better
 One Two/Hvide løgne
 One Two/One Two
+OneRepublic/Dreaming out loud
 The Oscar Peterson Trio/night train
 OutKast/Speakerboxxx _ The Love Below
 OutKast/Stankonia
 OutKast/The Love Below
+Outlandish/Bread & Barrels of Water
 Outlandish/Closer Than Veins
 På slaget 12/Hjem til Århus
 På slaget 12/Let's Dance
@@ -880,6 +943,7 @@ På slaget 12/Tror Du Virk'lig Livet Bli'r Genudsendt
 P!nk/M!ssundaztood
 P!nk/Try This
 Paco de lucia al di meola john mclaughlin/friday night in san francisco
+Patrik Isaksson/Tillbaks På Ruta 1
 Paul McCartney/Chaos and Creation in the Backyard
 Paul McCartney/Choba B CCCP
 Paul McCartney/flowers in the dirt
@@ -887,6 +951,7 @@ Paul McCartney/Off the Ground
 Paul McCartney/paul is live
 Paul Personne/Reve Sideral d'un Naif Ideal
 Paul Simon/graceland
+Paul Simon/Negotiations And Love Songs 1971-1986
 Paul Williams/bugsy malone
 Paul Young/From Time To Time
 Paul Young/From Time to Time: The Singles Collection
@@ -965,6 +1030,7 @@ Randy Crawford/Abstract Emotions
 Randy Crawford/The Very Best of Randy Crawford
 Randy Newman/Little Criminals
 Rasmus Nøhr/Fra kæreste til grin
+Rasmus Nøhr/I stedet for en tatovering
 Rasmus Nøhr/Lykkelig smutning
 Rasmus Nøhr/Rasmus Nøhr
 Rasmus Seebach/Ingen kan love dig imorgen
@@ -1057,6 +1123,7 @@ Roxette/tourism
 Roxy Music/Avalon
 Roy Hargrove/Moment to Moment
 Roy Orbinson/Mystery Girl
+Roy Orbinson/The Best of
 Rugsted & Kreutzfeldt/Scrapbog
 The Rumour Said Fire/The Arrogant
 Runrig/The Stamping Ground
@@ -1076,6 +1143,7 @@ Salt-N-Pepa/Very Necessary
 Sam Smith/In the Lonely Hour
 Sammy Davis, Jr./Ten Golden Greats
 Sammy Davis, Jr_/Ten Golden Greats
+Sandi Thom/Smile... It Confuses People
 The Sandmen/gimme gimme
 The Sandmen/sleepyhead
 The Sandmen/White Trash _ Red Front
@@ -1092,6 +1160,7 @@ Sanne Salomonsen/Unico
 Sanne Salomonsen/where blue begins
 Santana/Supernatural
 Sascha Dupont/Den Anden
+Sascha Dupont/Promises
 Savage Affair/Dumb Again
 Savage Affair/pink pills for pale people
 Savage Garden/Affirmation
@@ -1101,6 +1170,8 @@ The Savage Rose/Tameless
 The Savage Rose/Travelin'
 Saybia/The Second You Sleep
 Saybia/These are the days
+The Script/Science & Faith
+The Script/The Script
 Seal/Seal II
 Seal/Soul
 Sebastian/Et eventyr
@@ -1155,6 +1226,7 @@ Simply Red/life
 Simply Red/Men And Women
 Simply Red/stars
 Sinéad O'Connor/I do not want what I haven't got
+Sisqó/Unleash The Dragon
 Sko_Torp/Familiar Roads
 Sko_Torp/Heartland
 Sko_Torp/Hey You!
@@ -1187,11 +1259,14 @@ Søs Fenger/Søs
 Søs Fenger/Søs Fenger on holiday
 Søs Fenger/Stjernenat
 Søs Fenger/vinterdage
+Stacie Orrico/Stacie Orrico
 Stan Getz/Bossa Nova
 Stanley Clarke/The Toys of Men
+Starsailor/On The Outside
 Status Quo/12 Gold Bars
 Stefano Bollani/Gleda
 Steffen Brandt/Baby Blue_ Bob Dylan gendigtet
+Stereophonics/Just Enough Education to Perform
 Stevie Wonder/The Definitive Collection
 Stig Rossen/Julelys
 Sting/all this time
@@ -1241,12 +1316,15 @@ Tears For Fears/songs from the big chair
 Tears For Fears/the hurting
 Tears For Fears/the seeds of love
 Teitur/Stay Under the Stars
+Texas/Careful What You Wish For
 Texas/Mothers Heaven
 Texas/Ricks Road
 Texas/The Greatest Hits
+Texas/The Hush
 Texas/White on Blonde
 Them Crooked Vultures/Them Crooked Vultures
 Thomas Buttenschøn/Fantastiske Mandag
+Thomas Helmig Brothers/'2'
 Thomas Helmig Brothers/Kære maskine
 Thomas Helmig/Dream
 Thomas Helmig/El Camino
@@ -1254,6 +1332,7 @@ Thomas Helmig/Groovy Day
 Thomas Helmig/Helmig Herfra
 Thomas Helmig/IsityouIsitme
 Thomas Helmig/KH Helmig
+Thomas Helmig/Rhythm
 Thomas Helmig/Say When
 Thomas Helmig/Stupid Man
 Thomas Helmig/Vejen Væk
@@ -1275,6 +1354,7 @@ Tina Turner/private dancer
 Tina Turner/Simply the Best
 Tina Turner/What’s Love Got to Do With It
 Tintin og Hårtørrerne/play that jive
+Tiziano Ferro/Rosso relativo
 TLC/CrazySexyCool
 TLC/fanmail
 Tom Jones/in concert  cd 1
@@ -1335,6 +1415,7 @@ U2/zooropa
 Uffe Steen/Dust In My Coffee
 Vanessa Carlton/be not nobody
 Vanessa Hudgens/V
+Vanessa Paradis/Vanessa Paradis
 Vangelis/1492  conquest of paradise
 Vangelis/Chariots of Fire
 Vangelis/gift
@@ -1343,7 +1424,9 @@ Vangelis/soil festivities
 Vangelis/themes
 Various 0-C/10 spor under overfladen
 Various 0-C/all that
+Various 0-C/American Heartland
 Various 0-C/Best of the 90’s
+Various 0-C/Broken Dreams
 Various 0-C/Brygmann's Bedste Sange
 Various 0-C/C64-bonus
 Various 0-C/Club Mix '98
@@ -1353,6 +1436,7 @@ Various D-G/Dance Collection 4
 Various D-G/Dance The Night Away
 Various D-G/Fra Alle Os Til Alle Jer
 Various D-G/From all of us
+Various D-G/Ghetto Gourmet: Når Blokken Kalder
 Various D-G/Greatest Hits: 20 Great Songs of Peace
 Various D-G/Greatest Julehits
 Various D-G/Guitar Speak
@@ -1365,6 +1449,7 @@ Various M/More Music 2012
 Various M/Most Wanted Evergreens
 Various M/Most Wanted Julehits (disc 1)
 Various M/Most Wanted Julehits (disc 2)
+Various M/Music Of The Millennium 2
 Various N-R/Now That's What I Call Music! 61
 Various N-R/O Brother, Where Art Thou
 Various N-R/opera
@@ -1417,6 +1502,7 @@ Wham!/The Final
 White Lies/To Lose My Life
 The White Stripes/Elephant
 The White Stripes/Get Behind Me Satan
+The White Stripes/The White Stripes
 Whitesnake/come an get it
 Whitesnake/Good to Be Bad
 Whitesnake/Live... in the Heart of the City
