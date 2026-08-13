@@ -2,5 +2,7 @@
 #  fedora.rc
 
 function setup() {
-    install_dependencies diceware copr-cli copr-rpmbuild ripgrep tito
+    sudo dnf copr enable -y aldantanneo/jj-vcs
+
+    install_dependencies diceware copr-cli copr-rpmbuild jj-cli ripgrep tito
 }
