@@ -51,6 +51,7 @@ Amy Winehouse/Frank
 Anastacia/Anastacia
 Anastacia/freak of nature
 Anastacia/not that kind
+Anastacia/Pieces Of A Dream
 Andreas Vollenweider/behind the gardens  behind the wall  under the tree
 Andreas Vollenweider/caverna magica under the tree  in the cave
 Andreas Vollenweider/cosmopoly
@@ -139,10 +140,12 @@ Big Fat Snake/beautiful thing
 Big Fat Snake/Fight for Your Love
 Big Fat Snake/Running man
 Bikstok Røgsystem/Over stok og sten
+Bill Withers/Best Of
 Billie Holiday/Lady Sings the Blues: The Billie Holiday Story, Volume 4
 Billy Joel/kohuept
 Billy Joel/River of Dreams
 Billy Ocean/Love Really Hurts Without You
+Billy Paul/Best Of
 Billy Ray Cyrus/Some Gave All
 Björk/debut
 Björk/homogenic
@@ -226,6 +229,7 @@ Caroline Henderson/No. 8
 Carpark North/Carpark North
 Carpark North/Grateful
 Carpenters/The Singles 1969-1973
+Carpenters/Treasures
 Carrie Underwood/Play On
 Cats In Space/Too Many Gods
 Cæcilie Norby/Cæcilie Norby
@@ -234,6 +238,7 @@ Cæcilie Norby/My Corner of the Sky
 Cæcilie Norby/Queen of Bad Excuses
 Cee-Lo Green/The Lady Killer (The Platinum Edition)
 Chaka Khan/The Woman I Am
+Charles & Eddie/Duophonic
 Charlie Parker/Bird's Nest
 Cher/Believe
 Cher/Living Proof
@@ -429,16 +434,8 @@ Eurythmics/peace
 Eurythmics/revenge
 Eurythmics/sweet dreams are made of this
 Eurythmics/we too are one
-Extreme Behavior/01 Get Stoned.opus"
-Extreme Behavior/02 How Long.opus"
-Extreme Behavior/03 By the Way.opus"
-Extreme Behavior/04 Nothin’ Good About Goodbye.opus"
-Extreme Behavior/05 Bliss (I Don’t Wanna Know).opus"
-Extreme Behavior/06 Better Than Me.opus"
-Extreme Behavior/07 Room 21.opus"
-Extreme Behavior/08 Lips of an Angel.opus"
-Extreme Behavior/09 Homecoming Queen.opus"
-Extreme Behavior/10 Shoulda.opus"
+EvaneScence/Fallen
+#Evanescence: Fallen (most tracks bad)
 Extreme/iii sides to every story
 Extreme/pornograffitti
 Fairground Attraction/The First of a Million Kisses
@@ -503,6 +500,7 @@ Gnags/Burhøns
 Gnags/Gösta Hammerfedt
 Gnags/Har de puttet noget i kaffen?
 Gnags/Øjne på stilke
+Gnags/Live vol. II
 Gnags/Lygtemandens sang
 Gnags/Mr. Swing King
 Gnags/Ridser, revner & buler
@@ -529,12 +527,14 @@ Hanne Boel/Misty Paradise
 Hanne Boel/My Kindred Spirit
 Hanne Boel/Need
 Hanne Boel/Silent Violence
+Hanson/Middle Of Nowhere
 Hej Matematik/Vi burde ses noget mere
 Henning Stærk/Hard to handle
 Her Personal Pain/Songs From Cinema Café
 Herbie Hancock/Then And Now
 Hermanos Gutiérrez/El Bueno Y El Malo
 Hermanos Gutiérrez/Sonido Cósmico
+Hinder/Extreme Behavior
 Holly Johnson/Blast
 Hot Chocolate/Essential
 Humleridderne/Jeg gi'r en omgang hvis du gi'r to!!
@@ -594,6 +594,7 @@ The Jimi Hendrix Experience/Electric Ladyland
 Joe Cocker/the best of joe cocker
 Joey Moe/Joey
 John Denver/The Rocky Mountain Collection
+John Farnham/Greatest Hits
 John Illsley/glass
 John Lennon/imagine
 John Lennon/the john lennon collection
@@ -719,6 +720,7 @@ Lisa Stansfield/affection
 Lisa Stansfield/real love
 Lisa Stansfield/so natural
 Live/V
+Live/V Special Edition
 The Loft/City of Dreams
 Lou Reed/Transformer
 Louis Armstrong/what a wonderful world
@@ -866,6 +868,7 @@ Moonjam/Moonjam
 Moonjam/saxophonesongs volume ii
 Moonjam/songs for saxophone
 Moonjam/Østen for solen
+Moonjam/XAX XONX
 Morcheeba/Big Calm
 Morcheeba/Fragments Of Freedom
 Morten Remar/Solo
@@ -887,6 +890,7 @@ Natasja/Shooting Star
 Neil Young/Live at Massey Hall 1971 [CD-DVD]
 Nelly Furtado/WHOA. NELLY!
 Neneh Cherry/raw like sushi
+Nephew/DanmarkDenmark
 Nephew/Interkom Kom Ind
 Nephew/USADSB
 News/Crazy, Lazy City
@@ -1065,6 +1069,7 @@ Reyn Ouwehand/Nexus 6581
 Reyn Ouwehand/The Blithe, The Blend And The Bizarre
 Richard Ashcroft/Human Conditions
 Richard Bona/Tiki
+Richard Marx/Paid Vacation
 Richard Marx/Rush Street
 Rick Astley/free
 Rick Astley/Hold me in your Arms
@@ -1225,6 +1230,13 @@ Simply Red/Home
 Simply Red/life
 Simply Red/Men And Women
 Simply Red/stars
+Sina Drums/origin.txt"
+Sina Drums/Other Covers
+Sina Drums/Recordings from Abbey Road Studios 2025
+Sina Drums/Recordings from Boom Studios 2026-
+Sina Drums/Recordings from the Netherlands and the UK 2022-2025
+Sina Drums/Your Song Book
+Sina Drums/Your Song Book II
 Sinéad O'Connor/I do not want what I haven't got
 Sisqó/Unleash The Dragon
 Sko_Torp/Familiar Roads
@@ -1239,6 +1251,7 @@ Sneakers/Sui-Sui
 Sneakers/Totale
 Sonique/hear my cry
 Sophie B. Hawkins/Tongues and Tails
+Soultans/Love, Sweat & Tears
 Soulwire/No Money Down
 Sound of Seduction/A Cozy Condition
 Sound of Seduction/Time Is Running Out
@@ -1431,7 +1444,11 @@ Various 0-C/Brygmann's Bedste Sange
 Various 0-C/C64-bonus
 Various 0-C/Club Mix '98
 Various 0-C/cocktail
+#Various artists/D' Store Mix: Et: (disc 1 missing)
+#Various artists/D' Store Mix: To: (disc 1 missing)
 #Various artists/Now that's What I call Music! 61 (missing disc 1)
+Various D-G/D'StoreMix : Et
+Various D-G/D'StoreMix : To
 Various D-G/Dance Collection 4
 Various D-G/Dance The Night Away
 Various D-G/Fra Alle Os Til Alle Jer
@@ -1465,6 +1482,7 @@ Various S/Spot-festival 2007
 Various S/Synthesizer Greatest, Volume 1
 Various S/Synthesizer Greatest, Volume 4
 Various S/Synthesizer Greatest, Volume 5
+Various T/The Best of Bond...James Bond
 Various T/The Christmas Story
 Various T/the fabulous baker boys
 Various T/The Synthesizer Greatest - Volume 2
@@ -1519,6 +1537,7 @@ Wilson Phillips/Shadows and Light
 Wolfgang Amadeus Mozart/piano concerto no 21 elvira madigan  symphony no 40 in g minor
 Wolfgang Amadeus Mozart/Piano Concertos 20 & 23 - Annie Fischer
 Wyclef Jean/Welcome to Haiti: Creole 101
+Wynonna/What The World Needs Now Is Love
 You Know Who/You Know Who
 Yuki/Room Next Door
 Zapp Zapp/what does fish is 
@@ -1527,4 +1546,5 @@ Zididada/Happy Fool
 Zididada/Have a zididada day
 Zididada/Music Makers
 Zididada/Welcome to Zididada
-Zindy Kuku Boogaloo/Zindy Kuku Boogaloo
+Zindy/Zindy
+Zindy/Zindy Kuku Boogaloo
