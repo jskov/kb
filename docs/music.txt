@@ -1,5 +1,6 @@
 ﻿3T/Brotherhood
 4 Non Blondes/Bigger, Better, Faster, More!
+A Fine Frenzy/One Cell In The Sea
 A-ha/Lifelines
 Aaliyah/One in a Million
 ABBA/gold  greatest hits
@@ -110,6 +111,7 @@ Bananarama/Wow!
 The Band/The Shape I'm In
 Bangles/Everything
 Barbra Streisand/A Collection Greatest Hits… and More
+Barcode Brothers/Swipe Me
 Barry White/Your Heart and Soul
 BaSix/Christmastime
 BaSix/Embodiment
@@ -132,6 +134,7 @@ The Beautiful south/painting it red
 The Beautiful south/quench
 Bee Gees/Size Isn’t Everything
 Bee Gees/still waters
+Bee Gees/Their Greatest Hits
 Ben Harper/Both Sides of the Gun
 Bent Fabricius-Bjerre/Mit livs melodi
 Betty Midler/Experience the Divine: Greatest Hits
@@ -262,6 +265,7 @@ Christina/watching you
 Cliff Richard/Real as I Wanna Be
 Céline Dion/Amour
 Céline Dion/the colour of my love
+Colbie Caillat/Coco
 Coldplay/A Rush of Blood to the Head
 Coldplay/Parachutes
 Coldplay/Prospekt's March EP
@@ -327,6 +331,7 @@ De nattergale/Det ka jo aldrig gå værre end hiel gal
 De nattergale/Hva' har vi da gjort siden vi ska' ha'et så godt
 De nattergale/Nu ka' det vist ik' bli' meget bedre
 Dean Martin/The Best of Dean Martin
+Def Leppard/Slang
 Del Amitri/Hatful of Rain
 Del Amitri/Twisted
 Depeche Mode/black celebration
@@ -341,6 +346,7 @@ Depeche Mode/The Singles 86-98
 Depeche Mode/ultra cd stumm 148
 Depeche Mode/Violator
 Destiny's Child/8 Days Of Christmas
+Destiny's Child/The Writing's On The Wall
 Det Brune Punktum/Far brugte ikke noget
 Det Brune Punktum/Helbredelsen
 Diana Krall/All For You
@@ -369,6 +375,7 @@ Dodo and the Dodo's/Dodo and the Dodo's 4
 Dolly Parton/Best Of
 Donna Lewis/Now in a minute
 The Doors/The Doors
+Dr. Alban/It's my Life
 Dr. Hook/A Little Bit More
 Drengene fra Angora/Drengene fra Angora
 Drori-Hansen Furniture/Family
@@ -382,6 +389,7 @@ Eagles/the very best of the eagles
 Edith Piaf/The very best of Edith Piaf
 Editors/An End Has a Start
 Electric Light Orchestra/zoom
+Electronic/Raise the Pressure
 Ella Fitzgerald/Something to Live For
 Elton John/aida
 Elton John/dont shoot me im only the piano player
@@ -528,6 +536,7 @@ Hanne Boel/My Kindred Spirit
 Hanne Boel/Need
 Hanne Boel/Silent Violence
 Hanson/Middle Of Nowhere
+Harry Belafonte/Greatest Hits
 Hej Matematik/Vi burde ses noget mere
 Henning Stærk/Hard to handle
 Her Personal Pain/Songs From Cinema Café
@@ -537,6 +546,7 @@ Hermanos Gutiérrez/Sonido Cósmico
 Hinder/Extreme Behavior
 Holly Johnson/Blast
 Hot Chocolate/Essential
+Hotel Hunger/Get Your Hands Off
 Humleridderne/Jeg gi'r en omgang hvis du gi'r to!!
 I Got You on Tape/2
 I Got You on Tape/I Got You on Tape
@@ -640,7 +650,9 @@ Kashmir/The Good Life
 Kashmir/Travelogue
 Kashmir/Trespassers
 Kashmir/Zitilites
+Kate Bush/Aerial
 Kate Bush/the whole story
+Kate Nash/Made Of Bricks
 Katie Melua/Call Off the Search
 Katie Melua/Pictures
 Katie Melua/Piece by Piece
@@ -651,10 +663,13 @@ Kaya/Sweet Reality
 Kaya/The State I'm In
 Kelis/Tasty
 Kelly Clarkson/Breakaway
+Kelly Clarkson/My December
+Kelly Clarkson/Thankful
 The Kelly Family/From Their Hearts
 The Kelly Family/Growin' Up
 Kelly Osbourne/Shut Up
 Kelly Rowland/Simply deep
+Keri Noble/Fearless
 Kick The Kangaroo/Bits & pieces
 Kim Larsen & Bellami/Forklædt som voksen
 Kim Larsen & Bellami/Kielgasten
@@ -664,6 +679,7 @@ Kim Larsen & Kjukken/Kim Larsen & Kjukken
 Kim Larsen & Kjukken/Larsens bedste - Fra før verden gik af lave
 Kim Larsen & Kjukken/Luft under vingerne
 Kim Larsen & Kjukken/sange fra glemmebogen
+Kim Larsen/Gammel Hankat
 Kim Larsen/Hvem kan sige nej til en engel
 Kim Larsen/Midt om natten
 King's X/Gretchen Goes to Nebraska
@@ -673,6 +689,7 @@ Kitty Wu/Knives and Daggers
 The Knife/Deep Cuts
 The Knife/Silent Shout
 Kool and the Gang/Live!
+Kosmonova/Supernova
 Kraftwerk/The Man-Machine
 Kraftwerk/Trans-Europe Express
 KT Tunstall/Drastic Fantastic
@@ -698,6 +715,7 @@ Leona Lewis/Spirit
 Leonard Cohen/Old Ideas
 Leonard Cohen/Popular Problems
 Leonard Cohen/Songs From the Road
+Leonard Cohen/Ten New Songs
 Linnet & Salomonsen/Krig Og Kærlighed
 Lionel Richie/Back to Front
 Lis Sørensen/Con Amor
@@ -721,6 +739,7 @@ Lisa Stansfield/real love
 Lisa Stansfield/so natural
 Live/V
 Live/V Special Edition
+Lizz Wright/Salt
 The Loft/City of Dreams
 Lou Reed/Transformer
 Louis Armstrong/what a wonderful world
@@ -791,6 +810,7 @@ Mark Knopfler/Shangri-La
 Mark Morrison/Return Of The Mack
 Mark Ronson/Version
 Marky Mark and the Funky Bunch/Music for the People
+Maroon 5/Songs About Jane
 Mary J. Blige/No More Drama
 Mary J. Blige/The Breakthrough
 Maurice Ravel/Bolero
@@ -897,6 +917,7 @@ News/Crazy, Lazy City
 News/Great News
 News/News
 News/Sæt Sejl
+Nice Device/Get Inside
 Nice Little Penguins/Flying
 Nicolai Funch/Hooked
 Niels-Henning Ørsted Pedersen /Friends Forever
@@ -1029,6 +1050,7 @@ Radiohead/OK Computer
 Rage Against the Machine/Rage Against the Machine
 Randi Laubek/Almost Gracefully
 Randi Laubek/ducks and drakes
+Randi Laubek/Figures of Eight
 Randi Laubek/The Wedding of All Things
 Randy Crawford/Abstract Emotions
 Randy Crawford/The Very Best of Randy Crawford
@@ -1095,6 +1117,7 @@ Robbie Williams/Reality Killed the Video Star
 Robbie Williams/Rudebox
 Robbie Williams/sing when youre winning
 Robbie Williams/swing when youre winning
+Robert Miles/23 AM
 Robert Palmer/Don’t Explain
 Robyn/Body Talk
 Robyn/Robyn Is Here
@@ -1163,6 +1186,7 @@ Sanne Salomonsen/Sanne Unplugged
 Sanne Salomonsen/The Album
 Sanne Salomonsen/Unico
 Sanne Salomonsen/where blue begins
+Santana/Shaman
 Santana/Supernatural
 Sascha Dupont/Den Anden
 Sascha Dupont/Promises
@@ -1186,6 +1210,9 @@ Sebastian/Over havet, under himlen
 Sebastian/Skatteøen
 Sebastian/Tusind og én nat
 Second line jazzband/Move it
+Selena Gomez & The Scene/Kiss & Tell
+Selena Gomez & The Scene/When the Sun Goes Down
+Selena Gomez/Stars Dance
 The Shadows/Wonderful Shadows
 Shaggy/Hot Shot
 Shaggy/Pure Pleasure
@@ -1228,6 +1255,7 @@ Simple Minds/Real Life (made in Austria)
 Simply Red/Blue
 Simply Red/Home
 Simply Red/life
+Simply Red/Love And The Russian Winter
 Simply Red/Men And Women
 Simply Red/stars
 Sina Drums/origin.txt"
@@ -1277,6 +1305,7 @@ Stan Getz/Bossa Nova
 Stanley Clarke/The Toys of Men
 Starsailor/On The Outside
 Status Quo/12 Gold Bars
+Status Quo/Don't Stop
 Stefano Bollani/Gleda
 Steffen Brandt/Baby Blue_ Bob Dylan gendigtet
 Stereophonics/Just Enough Education to Perform
@@ -1317,6 +1346,7 @@ Swing Sisters/Let it be swing
 Sylvester Larsen/Små synder
 Sys Bjerre/Gør det selv
 T'Pau/bridge of spies
+T'Pau/The Promise
 Take That/Greatest hits
 Take That/Progress
 Take That/Take That & Party
@@ -1466,6 +1496,7 @@ Various M/More Music 2012
 Various M/Most Wanted Evergreens
 Various M/Most Wanted Julehits (disc 1)
 Various M/Most Wanted Julehits (disc 2)
+Various M/Most Wanted Movie Hits
 Various M/Music Of The Millennium 2
 Various N-R/Now That's What I Call Music! 61
 Various N-R/O Brother, Where Art Thou
