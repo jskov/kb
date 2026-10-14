@@ -167,6 +167,7 @@ Bloc Party/A Weekend in the City
 Blondie/parallel lines
 Blondie/plastic letters
 Blue Foundation/Sweep of Days
+Blue/One Love
 Blues Brothers And Friends/live from chicagos house of blues
 The Blues Brothers/The Blues Brothers
 Blunt/Reggae da nation
@@ -255,6 +256,8 @@ Chris Abbott/Disk 5 - Uncle and the Bacon - Big Band Bacon
 Chris Abbott/Disk 6 - Progressive 64 - Fastloaders
 Chris Abbott/Disk 7 - Rob Renders
 Chris Abbott/Galway Remixed
+Chris de Burgh/Into The Light
+Chris de Burgh/Power of Ten
 Chris de Burgh/The Getaway
 Chris Isaak/Baja Sessions
 Chris Minh Doky/The Nomad Diaries
@@ -262,6 +265,7 @@ Christian/Du kan gøre hvad du vil
 Christian/Velkommen Til Begyndelsen
 Christina Aguilera/Stripped
 Christina/watching you
+Christopher/Told You So
 Cliff Richard/Real as I Wanna Be
 Céline Dion/Amour
 Céline Dion/the colour of my love
@@ -291,6 +295,7 @@ Crowded House/recurring dream live
 The Crystal Method/Vegas
 Culture Club/this time  the first four years
 Cut ’n’ Move/Peace, Love & Harmony
+D-A-D/Draws A Circle
 D-A-D/Good Clean Family Entertainment You Can Trust
 D-A-D/no fuel left for the pilgrims
 D-A-D/Psychopatico
@@ -411,6 +416,7 @@ Enigma/le roi est mort vive le roi
 Enigma/mcmxc ad the limited edition
 Enigma/the cross of changes
 Enigma/the screen behind the mirror
+Enya/A Day Without Rain
 Enya/shepherd moons
 Enya/the celts
 Enya/the memory of trees
@@ -503,6 +509,7 @@ Giorgio Moroder/Déjà-Vu
 Giorgio Moroder/From Here to Eternity
 Gloria Estefan/Cuts Both Ways
 Gloria Estefan/Destiny
+Gloria Estefan/Hold Me, Thrill Me, Kiss Me
 Gloria Gaynor/The Very Best of Gloria Gaynor
 Gnags/Burhøns
 Gnags/Gösta Hammerfedt
@@ -703,6 +710,7 @@ Lab Band Audio/patreon
 Lana Del Rey/Born To Die
 Lars Hug/Kiss & Hug From a Happy Boy
 Lars Hug/Kopy
+Lars Muhl/Best Of Lars Muhl
 Lars Muhl/kingdom come
 Lars Muhl/mandolina
 Lars Muhl/When Angels Fall
@@ -720,6 +728,7 @@ Linnet & Salomonsen/Krig Og Kærlighed
 Lionel Richie/Back to Front
 Lis Sørensen/Con Amor
 Lis Sørensen/Kærtegn
+Lis Sørensen/Sigøjnerblod
 Lis Sørensen/Tæt på ækvator
 Lis Sørensen/Under stjernerne et sted
 Lisa Ekdahl/back to earth
@@ -792,6 +801,7 @@ The Manhattan Transfer/Tonin'
 The Manhattan Transfer/vocalese
 Manic Street Preachers/Know Your Enemy
 Manic Street Preachers/This Is My Truth Tell Me Yours
+Marc Anthony/Marc Anthony
 Marc Cohn/Marc Cohn
 Marcel Donne/Sidologie
 Maria Quatro Bossa/Amor
@@ -838,6 +848,7 @@ Michael Bolton/All That Matters
 Michael Bolton/At Last
 Michael Bolton/Everybody’s Crazy
 Michael Bolton/time love  tenderness
+Michael Bolton/Timeless The Classics
 Michael Bublé/Crazy Love
 Michael Bublé/Michael Bublé
 Michael Falch/Mød mig i mørket
@@ -846,6 +857,7 @@ Michael Jackson/Blood on the Dance Floor: HIStory in the Mix
 Michael Jackson/Dangerous
 Michael Jackson/HIStory
 Michael Jackson/Michael
+Michael Learns to Rock/Blue night
 Michael Learns to Rock/Colours
 Michael Learns to Rock/Michael Learns to Rock
 Michael Learns to Rock/Played On Pepper
@@ -918,6 +930,7 @@ News/Great News
 News/News
 News/Sæt Sejl
 Nice Device/Get Inside
+Nice Device/The Album
 Nice Little Penguins/Flying
 Nicolai Funch/Hooked
 Niels-Henning Ørsted Pedersen /Friends Forever
@@ -968,6 +981,7 @@ På slaget 12/Tror Du Virk'lig Livet Bli'r Genudsendt
 P!nk/M!ssundaztood
 P!nk/Try This
 Paco de lucia al di meola john mclaughlin/friday night in san francisco
+Paolo Nutini/These Streets
 Patrik Isaksson/Tillbaks På Ruta 1
 Paul McCartney/Chaos and Creation in the Backyard
 Paul McCartney/Choba B CCCP
@@ -1426,6 +1440,7 @@ Tower of Power/T.O.P.
 Tracy Chapman/Tracy Chapman
 Trentemöller/The Last Resort
 Tricky/Pre-Millennium Tension
+Trine Rein/Beneath my Skin
 Trine Rein/Finders Keepers
 Tøsedrengene/Det Bedste
 Tue West/meldingen kommer
@@ -1488,6 +1503,7 @@ Various D-G/Greatest Hits: 20 Great Songs of Peace
 Various D-G/Greatest Julehits
 Various D-G/Guitar Speak
 Various H-L/HipZip Complementary Music
+Various H-L/Hits of the 80s - The Essential Collection
 Various H-L/jingle bells
 Various H-L/Just Can't Get Enough
 Various H-L/Kim Schumacher - Stemmen fra 80'erne
