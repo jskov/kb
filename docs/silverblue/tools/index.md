@@ -1,6 +1,36 @@
 # Flatpak
 
 
+## Study
+
+### Security
+
+Would like to be able to use [Idea from flatpak](https://github.com/flathub/com.jetbrains.IntelliJ-IDEA-Community), and possibly AIs inside it.
+
+But letting (Idea control) AI access to anything is a major yuck.
+So probably keep using cop to cage AI for now.
+
+How about the rest of the 4GB Idea installation?
+
+Idea pak is configured with default access to `xdg-run/keyring`. This is the [D-Bus Secret Service (Keyring)](https://specifications.freedesktop.org/secret-service/latest/).
+As per [spec](https://specifications.freedesktop.org/secret-service/latest/ch10.html) there is no access control.
+This is why the [Portal for Secrets](https://flatpak.github.io/xdg-desktop-portal/docs/doc-org.freedesktop.portal.Secret.html) should be used instead.
+
+But this would require Idea to know how to handle that.
+
+
+
+As for the `ssh-agent` socket, allows use of ssh to other servers, signing and of course git server pushes.
+The only thing I want to allow is the last of those.
+
+So maybe issue a token to the IDE, and use https cloning? This would ergonomically annoying, since push/pull would then be problematic from (non-IDE) shells.
+But probably a workable solution. Must try it out in practice...
+
+
+
+
+
+
 ## Listing
 
 $ flatpak remote-ls | grep openjdk
@@ -46,6 +76,18 @@ Additional JDKs, download and install in ~/_tools and add them in Eclipse (use a
  - Gradle java home
 
 ### Zed
+
+```sh
+flatpak install dev.zed.Zed
+flatpak --user override dev.zed.Zed --nosocket=gpg-agent
+flatpak --user override dev.zed.Zed --socket=ssh-auth
+flatpak --user override dev.zed.Zed --persist=.ssh
+flatpak --user override dev.zed.Zed --nofilesystem=host
+flatpak --user override dev.zed.Zed --filesystem=~/git
+flatpak --user override dev.zed.Zed --filesystem=~/.gitconfig:ro
+```
+
+### Idea
 
 ```sh
 flatpak install dev.zed.Zed
