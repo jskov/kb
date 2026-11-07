@@ -89,6 +89,7 @@ Anne Linnet/Tal til mig
 Annie Lennox/Bare
 Annie Lennox/diva
 Annie Lennox/Medusa
+Anouk/Together Alone
 Antonio Vivaldi/four seasons
 Arcade Fire/Neon Bible
 Arctic Monkeys/Humbug
@@ -239,6 +240,7 @@ Carpark North/Grateful
 Carpenters/The Singles 1969-1973
 Carpenters/Treasures
 Carrie Underwood/Play On
+Cartoons/Toonage
 Cats In Space/Too Many Gods
 Cæcilie Norby/Cæcilie Norby
 Cæcilie Norby/First Conversation
@@ -753,6 +755,9 @@ Leonard Cohen/Old Ideas
 Leonard Cohen/Popular Problems
 Leonard Cohen/Songs From the Road
 Leonard Cohen/Ten New Songs
+Liller & Papa Bue's Viking Jazzband/Livet Er Skønt
+Liller & Papa Bue's Viking Jazzband/Man kan vel ikke gøre for at man har charme
+Liller & Papa Bue's Viking Jazzband/Til enhver tid
 Linnet & Salomonsen/Krig Og Kærlighed
 Lionel Richie/Back to Front
 Lis Sørensen/Con Amor
@@ -959,6 +964,7 @@ Neneh Cherry/raw like sushi
 Nephew/DanmarkDenmark
 Nephew/Interkom Kom Ind
 Nephew/USADSB
+New Orleans Moonshiners/Frenchmen St. Parade
 News/Crazy, Lazy City
 News/Great News
 News/News
@@ -967,6 +973,7 @@ Nice Device/Get Inside
 Nice Device/The Album
 Nice Little Penguins/Flying
 Nicolai Funch/Hooked
+Niels Skousen/Nu Er Drømmen Forbi - Live Skousen
 Niels-Henning Ørsted Pedersen /Friends Forever
 Nik & Jay/2
 Nik & Jay/3 - Fresh Fri Fly
@@ -1017,6 +1024,7 @@ P!nk/M!ssundaztood
 P!nk/Try This
 Paco de lucia al di meola john mclaughlin/friday night in san francisco
 Paolo Nutini/These Streets
+Papa Bue's Viking Jazzband/Papa Bue's Bedste
 Patrik Isaksson/Tillbaks På Ruta 1
 Patsy Cline/My Greatest Songs
 Paul McCartney/Chaos and Creation in the Backyard
@@ -1057,6 +1065,7 @@ Pink Floyd/Wish You Were Here
 PJ Harvey/To Bring You My Love
 Placebo/Black Market Music
 Placebo/Meds
+The Platters/The very best of The Platters
 Pockets/Pockets
 The Pointer Sisters/Best of the Pointer Sisters
 The Pointer Sisters/Serious Slammin’
@@ -1547,6 +1556,7 @@ Various D-G/D'StoreMix : Et
 Various D-G/D'StoreMix : To
 Various D-G/Dance Collection 4
 Various D-G/Dance The Night Away
+Various D-G/Danske filmhits
 Various D-G/Fra Alle Os Til Alle Jer
 Various D-G/From all of us
 Various D-G/Ghetto Gourmet: Når Blokken Kalder
@@ -1583,6 +1593,7 @@ Various S/Synthesizer Greatest, Volume 5
 Various T/The Best of Bond...James Bond
 Various T/The Christmas Story
 Various T/the fabulous baker boys
+Various T/The Swinging Big Band I
 Various T/The Synthesizer Greatest - Volume 2
 Various T/The World of Digital Classics, Sampler 2
 Various T/The World of Digital Classics, Sampler 3
